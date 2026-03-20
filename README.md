@@ -62,7 +62,22 @@ Full-stack Databricks App for vehicle quality management — built for automotiv
 - Foundation Model API access (pay-per-token, no endpoint setup needed)
 - Databricks CLI configured with a profile
 
-## Quick Start
+## One-Command Setup
+
+If you want to recreate everything from scratch:
+
+```bash
+./scripts/full_setup.sh <your-databricks-profile>
+```
+
+This will:
+1. Create a Lakebase instance
+2. Seed staging tables with 2,000+ rows of sample data
+3. Upload all pipeline notebooks
+4. Import the 6-page Lakeview dashboard
+5. Build and deploy the Databricks App
+
+## Manual Setup (Step by Step)
 
 ### 1. Set up infrastructure
 
@@ -187,7 +202,16 @@ databricks apps create --name tmlpv-vehicle-quality --profile <your-profile>
 │   ├── 03_silver_to_gold.sql     # Silver → Gold (SQL)
 │   ├── 04_ai_checklist_agent.py  # AI gap recommendations (Python)
 │   └── 05_risk_scorer_setup.py   # ML risk model setup (Python)
+├── data/                         # Seed data (CSV exports from Lakebase)
+│   ├── staging_complaints.csv    # 504 customer complaints
+│   ├── staging_inspections.csv   # 803 PDI inspection records
+│   └── staging_deliveries.csv    # 701 delivery records
+├── dashboard/                    # Lakeview dashboard definition
+│   └── dashboard_definition.json # Full 6-page dashboard (37 datasets, 41 widgets)
 ├── scripts/                      # Setup and deployment scripts
+│   ├── full_setup.sh             # ONE-COMMAND end-to-end setup
+│   ├── seed_lakebase.py          # Load CSV seed data into Lakebase
+│   ├── import_dashboard.py       # Import Lakeview dashboard via API
 │   ├── setup_lakebase_tables.sql # Lakebase table DDL
 │   ├── setup_unity_catalog.sql   # UC catalog/schema/table setup
 │   ├── grant_sp_permissions.sql  # Service Principal permissions

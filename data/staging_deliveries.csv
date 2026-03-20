@@ -1,0 +1,702 @@
+Deliveries: 700 rows
+delivery_id,vin,customer_name,customer_phone,dealer_code,dealer_name,delivery_date,delivery_officer,odometer_reading,fuel_level,model,variant,epod_signed,customer_remarks,inspection_id,created_at
+1,MATNXN36462IN,Komal Mukherjee,+917389321077,D001,Tata Motors Andheri,2026-03-13,Manish Sethi,15,Full,Safari,XZ,true,,1,2026-03-13T06:54:58.111-04:00
+2,MATPNM77653IN,Karthik Tiwari,+917562735040,D031,Tata Motors Sadar,2026-03-13,Sameer Khanna,24,Full,Punch,Creative,true,,2,2026-03-13T06:54:58.357-04:00
+3,MATSFL46671IN,Ashok Agarwal,+918033961504,D017,Tata Motors Hinjawadi,2026-03-13,Abhishek Pandey,16,3/4,Tiago,XZ+,true,Very happy with the vehicle condition,3,2026-03-13T06:54:58.591-04:00
+4,MATPNM78219IN,Rajesh Verma,+917950436673,D010,Tata Motors OMR,2026-03-13,Nikhil Desai,27,Full,Safari,XZ+,false,,4,2026-03-13T06:54:58.825-04:00
+5,MATNXK95322IN,Manoj Banerjee,+917673843617,D009,Tata Motors Anna Nagar,2026-03-13,Kunal Trivedi,7,Full,Nexon,EV Max XZ+ Lux,true,Delivery process was smooth and professional,5,2026-03-13T06:54:59.059-04:00
+6,MATHRL78113IN,Neha Reddy,+917193631153,D029,Tata Motors Aliganj,2026-03-13,Rohit Bhardwaj,11,Full,Harrier,XM,true,Documentation was delayed by 30 minutes,6,2026-03-13T06:54:59.293-04:00
+7,MATTGM61744IN,Kavita Gupta,+918604908170,D010,Tata Motors OMR,2026-03-13,Abhishek Pandey,19,Full,Nexon,XZ,true,Documentation was delayed by 30 minutes,7,2026-03-13T06:54:59.527-04:00
+8,MATTGN25566IN,Rajesh Patel,+919775097146,D008,Tata Motors Gurgaon,2026-03-13,Sameer Khanna,16,Full,Tiago,XM,true,Requested additional floor mats,8,2026-03-13T06:54:59.763-04:00
+9,MATNXM81766IN,Gaurav Reddy,+917791158158,D012,Tata Motors Whitefield,2026-03-13,Pankaj Dubey,29,Full,Punch,Pure,true,AC not cooling well - dealer scheduled follow-up,9,2026-03-13T06:54:59.998-04:00
+10,MATHRN21706IN,Vikram Bhat,+918582550355,D027,Tata Motors Civil Lines,2026-03-13,Pankaj Dubey,43,Full,Nexon,EV XZ+,true,Documentation was delayed by 30 minutes,10,2026-03-13T06:55:00.232-04:00
+11,MATNXK91094IN,Deepa Joshi,+917002020640,D007,Tata Motors Noida,2026-03-13,Tarun Kaushik,27,Full,Nexon,XZ,false,,11,2026-03-13T06:55:00.466-04:00
+12,MATPNN15896IN,Manoj Kumar,+918653866299,D026,Tata Motors SG Highway,2026-03-13,Manish Sethi,34,3/4,Nexon,XZ+,true,,12,2026-03-13T06:55:00.700-04:00
+13,MATHRM17667IN,Divya Verma,+918243931203,D033,Tata Motors MG Road,2026-03-13,Manish Sethi,23,3/4,Harrier,XZ+ Dark,true,AC not cooling well - dealer scheduled follow-up,13,2026-03-13T06:55:00.938-04:00
+14,MATSFN51724IN,Komal Menon,+918515022943,D003,Tata Motors Powai,2026-03-12,Arjun Nambiar,44,Full,Punch,Creative,true,,14,2026-03-13T06:55:01.172-04:00
+15,MATPNN10131IN,Vivek Desai,+918837851710,D025,Tata Motors Ashram Road,2026-03-13,Rohit Bhardwaj,32,Full,Safari,XM,true,Excellent handover experience,15,2026-03-13T06:55:01.407-04:00
+16,MATTGK49405IN,Rohit Kumar,+917536963767,D010,Tata Motors OMR,2026-03-13,Sameer Khanna,41,Full,Safari,XE,true,AC not cooling well - dealer scheduled follow-up,16,2026-03-13T06:55:01.641-04:00
+17,MATSFM96805IN,Nitin Desai,+919351236804,D018,Tata Motors Baner,2026-03-13,Sameer Khanna,31,Full,Safari,XZ+,true,Documentation was delayed by 30 minutes,17,2026-03-13T06:55:01.876-04:00
+18,MATTGN98029IN,Deepa Reddy,+918056160289,D004,Tata Motors Navi Mumbai,2026-03-12,Varun Mishra,12,Full,Nexon,XZ+ Lux,true,Excellent handover experience,18,2026-03-13T06:55:02.110-04:00
+19,MATHRM90405IN,Priya Verma,+919702391374,D006,Tata Motors Dwarka,2026-03-13,Manish Sethi,45,Full,Punch,Creative,true,,19,2026-03-13T06:55:02.344-04:00
+20,MATHRL35397IN,Arun Agarwal,+919088618501,D027,Tata Motors Civil Lines,2026-03-12,Varun Mishra,39,Full,Nexon,XZ,true,,20,2026-03-13T06:55:02.578-04:00
+21,MATSFN99151IN,Bhavna Malhotra,+918221848984,D006,Tata Motors Dwarka,2026-03-13,Kunal Trivedi,28,Full,Safari,XE,true,,21,2026-03-13T06:55:02.813-04:00
+22,MATHRM53152IN,Sanjay Pandey,+917653788102,D007,Tata Motors Noida,2026-03-11,Abhishek Pandey,24,Full,Punch,Pure,true,AC not cooling well - dealer scheduled follow-up,22,2026-03-13T06:55:03.049-04:00
+23,MATTGN22539IN,Rekha Tiwari,+918445909567,D022,Tata Motors Salt Lake,2026-03-12,Arjun Nambiar,41,Full,Safari,XM,true,AC not cooling well - dealer scheduled follow-up,23,2026-03-13T06:55:03.282-04:00
+24,MATHRK96471IN,Kavita Chopra,+919994843857,D033,Tata Motors MG Road,2026-03-12,Varun Mishra,18,Full,Harrier,XZ+,true,Documentation was delayed by 30 minutes,24,2026-03-13T06:55:03.516-04:00
+25,MATSFN65182IN,Harsh Pandey,+918632511984,D040,Tata Motors Vizag CBD,2026-03-13,Rohit Bhardwaj,44,Full,Safari,XM,false,All accessories installed as promised,25,2026-03-13T06:55:03.752-04:00
+26,MATSFL77853IN,Ravi Singh,+919108351155,D022,Tata Motors Salt Lake,2026-03-13,Kunal Trivedi,17,3/4,Safari,XM,true,Delivery process was smooth and professional,26,2026-03-13T06:55:03.987-04:00
+27,MATTGM90753IN,Vikram Yadav,+918463841712,D009,Tata Motors Anna Nagar,2026-03-13,Arjun Nambiar,38,Full,Nexon,XZ+ Lux,true,Minor scratch noticed on door - dealer promised touch-up,27,2026-03-13T06:55:04.223-04:00
+28,MATNXK13934IN,Priya Tiwari,+918665739683,D021,Tata Motors Hitech City,2026-03-13,Pankaj Dubey,15,Full,Punch,EV Adventure,true,,28,2026-03-13T06:55:04.457-04:00
+29,MATNXK44313IN,Vivek Pandey,+917946305779,D010,Tata Motors OMR,2026-03-12,Pankaj Dubey,9,3/4,Nexon,XM,true,Minor scratch noticed on door - dealer promised touch-up,29,2026-03-13T06:55:04.692-04:00
+30,MATNXL28931IN,Ashok Joshi,+918069048011,D004,Tata Motors Navi Mumbai,2026-03-11,Manish Sethi,28,Full,Harrier,XZ+ Dark,true,Requested additional floor mats,30,2026-03-13T06:55:04.928-04:00
+31,MATHRN86556IN,Sachin Rao,+918117454757,D026,Tata Motors SG Highway,2026-03-13,Kunal Trivedi,33,Full,Nexon,XE,true,,31,2026-03-13T06:55:05.162-04:00
+32,MATPNN45171IN,Meera Tiwari,+919481444505,D025,Tata Motors Ashram Road,2026-03-10,Tarun Kaushik,28,3/4,Safari,XE,true,Requested additional floor mats,32,2026-03-13T06:55:05.396-04:00
+33,MATTGK40169IN,Karthik Das,+917024969063,D028,Tata Motors Vaishali Nagar,2026-03-13,Rohit Bhardwaj,42,Full,Punch,EV Adventure,true,Delivery process was smooth and professional,33,2026-03-13T06:55:05.630-04:00
+34,MATTGK94365IN,Dinesh Dutta,+918433672277,D018,Tata Motors Baner,2026-03-12,Varun Mishra,14,3/4,Safari,Adventure,true,Requested additional floor mats,34,2026-03-13T06:55:05.864-04:00
+35,MATSFM49252IN,Karthik Kapoor,+918921182136,D036,Tata Motors Panchkula,2026-03-13,Rohit Bhardwaj,36,Full,Tiago,XZ+,true,AC not cooling well - dealer scheduled follow-up,35,2026-03-13T06:55:06.100-04:00
+36,MATHRN86939IN,Priya Mukherjee,+918893434873,D030,Tata Motors Gomti Nagar,2026-03-10,Abhishek Pandey,18,Full,Punch,Adventure,true,,36,2026-03-13T06:55:06.335-04:00
+37,MATPNM49274IN,Karthik Banerjee,+917473507431,D026,Tata Motors SG Highway,2026-03-08,Tarun Kaushik,32,3/4,Safari,XZ+,true,,37,2026-03-13T06:55:06.573-04:00
+38,MATSFK32468IN,Deepa Saxena,+917841313636,D019,Tata Motors Jubilee Hills,2026-03-09,Tarun Kaushik,36,Full,Safari,Adventure,false,AC not cooling well - dealer scheduled follow-up,38,2026-03-13T06:55:06.807-04:00
+39,MATHRN64842IN,Rajesh Menon,+918481286613,D017,Tata Motors Hinjawadi,2026-03-13,Manish Sethi,41,Full,Tiago,XM,true,Delivery process was smooth and professional,39,2026-03-13T06:55:07.043-04:00
+40,MATHRN18384IN,Bhavna Menon,+919998378888,D010,Tata Motors OMR,2026-03-08,Sameer Khanna,34,Full,Nexon,XZ,true,Documentation was delayed by 30 minutes,40,2026-03-13T06:55:07.278-04:00
+41,MATHRL42654IN,Karthik Kumar,+918256728668,D012,Tata Motors Whitefield,2026-03-12,Manish Sethi,40,Full,Harrier,XE,true,,41,2026-03-13T06:55:07.512-04:00
+42,MATHRK63907IN,Kavita Gupta,+918910003640,D001,Tata Motors Andheri,2026-03-13,Nikhil Desai,8,3/4,Safari,XM,true,Minor scratch noticed on door - dealer promised touch-up,42,2026-03-13T06:55:07.746-04:00
+43,MATHRN97856IN,Vikram Chopra,+918695255852,D015,Tata Motors Jayanagar,2026-03-08,Manish Sethi,30,Full,Safari,XZ,true,Requested additional floor mats,43,2026-03-13T06:55:07.979-04:00
+44,MATHRK16259IN,Rohit Sinha,+917943645983,D036,Tata Motors Panchkula,2026-03-07,Nikhil Desai,38,Full,Tiago,XZ,true,,44,2026-03-13T06:55:08.213-04:00
+45,MATHRK64484IN,Deepa Sharma,+917210497874,D014,Tata Motors Electronic City,2026-03-07,Kunal Trivedi,23,Full,Nexon,XZ+,true,Requested additional floor mats,45,2026-03-13T06:55:08.449-04:00
+46,MATSFK58362IN,Ravi Kapoor,+919332755849,D017,Tata Motors Hinjawadi,2026-03-11,Arjun Nambiar,18,1/2,Safari,XE,true,Noticed slight vibration during test drive - dealer to check,46,2026-03-13T06:55:08.682-04:00
+47,MATSFM93277IN,Prakash Verma,+917098530667,D040,Tata Motors Vizag CBD,2026-03-10,Kunal Trivedi,15,3/4,Punch,Creative,true,Documentation was delayed by 30 minutes,47,2026-03-13T06:55:08.918-04:00
+48,MATHRK41922IN,Parveen Malhotra,+919740779511,D017,Tata Motors Hinjawadi,2026-03-08,Varun Mishra,18,Full,Harrier,XE,true,Excellent handover experience,48,2026-03-13T06:55:09.154-04:00
+49,MATNXM53420IN,Ravi Mukherjee,+918228533659,D038,Tata Motors Kadavanthara,2026-03-10,Rohit Bhardwaj,43,Full,Harrier,XM,true,Delivery process was smooth and professional,49,2026-03-13T06:55:09.387-04:00
+50,MATHRL32764IN,Meera Banerjee,+917223332163,D005,Tata Motors Connaught Place,2026-03-08,Varun Mishra,17,Full,Harrier,XM,true,,50,2026-03-13T06:55:09.620-04:00
+51,MATPNN31989IN,Swati Pillai,+917214398285,D027,Tata Motors Civil Lines,2026-03-09,Sameer Khanna,9,Full,Harrier,XM,true,Requested additional floor mats,51,2026-03-13T06:55:09.857-04:00
+52,MATSFN47122IN,Sachin Pillai,+919278893868,D035,Tata Motors Rajpur Road,2026-03-05,Sameer Khanna,39,3/4,Safari,XM,true,All accessories installed as promised,52,2026-03-13T06:55:10.091-04:00
+53,MATNXK15089IN,Harsh Banerjee,+919744150516,D038,Tata Motors Kadavanthara,2026-03-10,Sameer Khanna,23,Full,Nexon,EV XZ+,true,Minor scratch noticed on door - dealer promised touch-up,53,2026-03-13T06:55:10.328-04:00
+54,MATSFL69699IN,Meera Joshi,+917274338370,D017,Tata Motors Hinjawadi,2026-03-04,Pankaj Dubey,30,Full,Harrier,XM,true,,54,2026-03-13T06:55:10.564-04:00
+55,MATTGN96309IN,Swati Tiwari,+918418081099,D040,Tata Motors Vizag CBD,2026-03-09,Arjun Nambiar,38,Full,Harrier,XZ+ Dark,true,All accessories installed as promised,55,2026-03-13T06:55:10.801-04:00
+56,MATNXN19154IN,Swati Desai,+918332703866,D001,Tata Motors Andheri,2026-03-09,Manish Sethi,25,Full,Nexon,XE,true,,56,2026-03-13T06:55:11.040-04:00
+57,MATHRN63581IN,Rajesh Singh,+918732228528,D002,Tata Motors Thane,2026-03-08,Kunal Trivedi,25,Full,Harrier,XE,true,Noticed slight vibration during test drive - dealer to check,57,2026-03-13T06:55:11.275-04:00
+58,MATTGM59239IN,Vivek Chatterjee,+918126415466,D027,Tata Motors Civil Lines,2026-03-10,Sameer Khanna,10,1/2,Tiago,XZ+,true,,58,2026-03-13T06:55:11.509-04:00
+59,MATNXN69889IN,Suresh Verma,+919604078799,D035,Tata Motors Rajpur Road,2026-03-07,Kunal Trivedi,40,Full,Nexon,EV Max XZ+ Lux,true,AC not cooling well - dealer scheduled follow-up,59,2026-03-13T06:55:11.744-04:00
+60,MATSFN40612IN,Anjali Kumar,+917458286294,D040,Tata Motors Vizag CBD,2026-03-04,Pankaj Dubey,38,3/4,Harrier,XE,true,All accessories installed as promised,60,2026-03-13T06:55:11.978-04:00
+61,MATNXK75264IN,Anita Kumar,+919442763615,D021,Tata Motors Hitech City,2026-03-06,Abhishek Pandey,35,3/4,Harrier,XM,true,Delivery process was smooth and professional,61,2026-03-13T06:55:12.212-04:00
+62,MATHRM60264IN,Bhavna Gupta,+919851839348,D032,Tata Motors Dharampeth,2026-03-07,Arjun Nambiar,15,Full,Nexon,XE,true,,62,2026-03-13T06:55:12.453-04:00
+63,MATSFN60023IN,Nitin Pandey,+917120619349,D014,Tata Motors Electronic City,2026-03-08,Pankaj Dubey,39,Full,Safari,Adventure,true,Delivery process was smooth and professional,63,2026-03-13T06:55:12.687-04:00
+64,MATTGN60875IN,Dinesh Kumar,+919525709004,D017,Tata Motors Hinjawadi,2026-03-08,Pankaj Dubey,32,Full,Safari,XE,true,All accessories installed as promised,64,2026-03-13T06:55:12.920-04:00
+65,MATSFL72689IN,Kavita Pillai,+918028281446,D036,Tata Motors Panchkula,2026-03-04,Arjun Nambiar,42,Full,Tiago,EV XZ+,true,All accessories installed as promised,65,2026-03-13T06:55:13.157-04:00
+66,MATNXM61417IN,Sanjay Nair,+918666002000,D018,Tata Motors Baner,2026-03-03,Rohit Bhardwaj,14,Full,Safari,XZ+,true,AC not cooling well - dealer scheduled follow-up,66,2026-03-13T06:55:13.390-04:00
+67,MATPNL85649IN,Divya Chatterjee,+917186033757,D027,Tata Motors Civil Lines,2026-03-05,Varun Mishra,26,Full,Nexon,XM,true,Requested additional floor mats,67,2026-03-13T06:55:13.625-04:00
+68,MATNXN56607IN,Tanya Desai,+919597391532,D037,Tata Motors Sector 17,2026-03-05,Arjun Nambiar,5,3/4,Tiago,XE,true,,68,2026-03-13T06:55:13.946-04:00
+69,MATPNN46073IN,Harsh Das,+917878357544,D009,Tata Motors Anna Nagar,2026-03-03,Nikhil Desai,34,Full,Tiago,XE,true,Requested additional floor mats,69,2026-03-13T06:55:14.253-04:00
+70,MATTGK63127IN,Tanya Saxena,+919780342764,D005,Tata Motors Connaught Place,2026-03-06,Arjun Nambiar,21,Full,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,70,2026-03-13T06:55:14.488-04:00
+71,MATNXK43654IN,Sneha Nair,+918374111231,D020,Tata Motors Gachibowli,2026-03-07,Nikhil Desai,38,Full,Tiago,EV XZ+,true,,71,2026-03-13T06:55:14.723-04:00
+72,MATTGL76924IN,Rajesh Saxena,+919338044925,D033,Tata Motors MG Road,2026-03-03,Manish Sethi,17,3/4,Tiago,XE,true,Documentation was delayed by 30 minutes,72,2026-03-13T06:55:14.957-04:00
+73,MATHRK69777IN,Karthik Yadav,+917034242732,D012,Tata Motors Whitefield,2026-03-04,Manish Sethi,19,Full,Tiago,XZ,true,,73,2026-03-13T06:55:15.192-04:00
+74,MATNXK42440IN,Sachin Desai,+918957992016,D011,Tata Motors Adyar,2026-03-04,Varun Mishra,12,3/4,Nexon,XE,true,,74,2026-03-13T06:55:15.426-04:00
+75,MATTGN87178IN,Karthik Chopra,+919064725939,D016,Tata Motors Kothrud,2026-03-02,Kunal Trivedi,29,Full,Nexon,XM,true,,75,2026-03-13T06:55:15.660-04:00
+76,MATPNM26721IN,Vivek Dutta,+917356242586,D011,Tata Motors Adyar,2026-02-28,Nikhil Desai,9,Full,Harrier,XZ,true,Minor scratch noticed on door - dealer promised touch-up,76,2026-03-13T06:55:15.895-04:00
+77,MATTGN46152IN,Arun Menon,+919899685688,D036,Tata Motors Panchkula,2026-03-01,Tarun Kaushik,36,Full,Safari,XM,true,,77,2026-03-13T06:55:16.130-04:00
+78,MATHRK75248IN,Sachin Pandey,+919970998754,D026,Tata Motors SG Highway,2026-03-02,Manish Sethi,35,Full,Punch,Creative,true,AC not cooling well - dealer scheduled follow-up,78,2026-03-13T06:55:16.366-04:00
+79,MATNXL68805IN,Anita Agarwal,+919489465310,D011,Tata Motors Adyar,2026-03-02,Abhishek Pandey,45,Full,Punch,Adventure,true,AC not cooling well - dealer scheduled follow-up,79,2026-03-13T06:55:16.601-04:00
+80,MATSFK37926IN,Anjali Pillai,+918712665275,D011,Tata Motors Adyar,2026-03-03,Rohit Bhardwaj,34,Full,Nexon,XM,true,Documentation was delayed by 30 minutes,80,2026-03-13T06:55:16.903-04:00
+81,MATNXL77412IN,Gaurav Bhat,+918007293126,D013,Tata Motors Koramangala,2026-03-04,Arjun Nambiar,23,Full,Harrier,XZ+ Dark,true,Documentation was delayed by 30 minutes,81,2026-03-13T06:55:17.137-04:00
+82,MATHRM34846IN,Sunita Reddy,+917693537895,D007,Tata Motors Noida,2026-03-04,Tarun Kaushik,13,1/2,Tiago,XE,true,AC not cooling well - dealer scheduled follow-up,82,2026-03-13T06:55:17.374-04:00
+83,MATPNL60967IN,Arun Kapoor,+918970930560,D004,Tata Motors Navi Mumbai,2026-03-01,Abhishek Pandey,17,1/2,Harrier,XZ,true,,83,2026-03-13T06:55:17.608-04:00
+84,MATTGL77009IN,Vikram Kapoor,+918109702414,D016,Tata Motors Kothrud,2026-03-02,Arjun Nambiar,44,Full,Nexon,XM,true,Delivery process was smooth and professional,84,2026-03-13T06:55:17.848-04:00
+85,MATHRL25789IN,Sanjay Desai,+919885195352,D015,Tata Motors Jayanagar,2026-03-03,Arjun Nambiar,31,Full,Tiago,XM,true,Noticed slight vibration during test drive - dealer to check,85,2026-03-13T06:55:18.084-04:00
+86,MATSFM42370IN,Smita Singh,+917354833130,D033,Tata Motors MG Road,2026-03-04,Pankaj Dubey,7,Full,Harrier,XZ,true,,86,2026-03-13T06:55:18.317-04:00
+87,MATTGL58705IN,Deepa Rao,+917038282607,D039,Tata Motors Edappally,2026-03-01,Sameer Khanna,37,Full,Tiago,XE,true,All accessories installed as promised,87,2026-03-13T06:55:18.554-04:00
+88,MATSFK68783IN,Swati Agarwal,+918123796128,D008,Tata Motors Gurgaon,2026-03-01,Manish Sethi,26,Full,Harrier,XZ+ Dark,true,Very happy with the vehicle condition,88,2026-03-13T06:55:18.786-04:00
+89,MATPNN60351IN,Nitin Menon,+919180125792,D015,Tata Motors Jayanagar,2026-02-26,Kunal Trivedi,18,Full,Harrier,XZ,true,Documentation was delayed by 30 minutes,89,2026-03-13T06:55:19.020-04:00
+90,MATTGL32427IN,Suresh Menon,+919450085670,D026,Tata Motors SG Highway,2026-02-26,Rohit Bhardwaj,35,Full,Harrier,XE,true,Requested additional floor mats,90,2026-03-13T06:55:19.254-04:00
+91,MATSFM63522IN,Harsh Dutta,+918774541362,D015,Tata Motors Jayanagar,2026-02-26,Rohit Bhardwaj,23,Full,Safari,XE,true,,91,2026-03-13T06:55:19.489-04:00
+92,MATTGL67958IN,Swati Kumar,+919125386812,D039,Tata Motors Edappally,2026-02-25,Nikhil Desai,31,Full,Safari,XM,true,All accessories installed as promised,92,2026-03-13T06:55:19.725-04:00
+93,MATHRL74293IN,Lakshmi Verma,+919313810755,D005,Tata Motors Connaught Place,2026-02-26,Pankaj Dubey,21,3/4,Harrier,XM,true,,93,2026-03-13T06:55:19.959-04:00
+94,MATTGN59528IN,Parveen Agarwal,+917552056578,D027,Tata Motors Civil Lines,2026-03-01,Tarun Kaushik,5,Full,Punch,Pure,true,AC not cooling well - dealer scheduled follow-up,94,2026-03-13T06:55:20.196-04:00
+95,MATPNM50289IN,Deepa Sharma,+919345500340,D004,Tata Motors Navi Mumbai,2026-03-01,Rohit Bhardwaj,8,Full,Harrier,XZ+ Dark,true,Requested additional floor mats,95,2026-03-13T06:55:20.500-04:00
+96,MATNXK32224IN,Priya Das,+917369437914,D029,Tata Motors Aliganj,2026-03-02,Abhishek Pandey,6,Full,Safari,XE,true,Very happy with the vehicle condition,96,2026-03-13T06:55:20.734-04:00
+97,MATTGK55663IN,Deepa Desai,+917491952422,D035,Tata Motors Rajpur Road,2026-03-02,Rohit Bhardwaj,17,Full,Nexon,XZ+,true,AC not cooling well - dealer scheduled follow-up,97,2026-03-13T06:55:21.013-04:00
+98,MATTGL46500IN,Arun Joshi,+918375541647,D006,Tata Motors Dwarka,2026-03-01,Rohit Bhardwaj,18,Full,Tiago,XZ+,true,Very happy with the vehicle condition,98,2026-03-13T06:55:21.253-04:00
+99,MATHRN20959IN,Rajesh Kumar,+917250020376,D010,Tata Motors OMR,2026-03-02,Sameer Khanna,7,Full,Nexon,EV Max XZ+ Lux,true,Documentation was delayed by 30 minutes,99,2026-03-13T06:55:21.490-04:00
+100,MATHRK39437IN,Kavita Kumar,+919375307402,D005,Tata Motors Connaught Place,2026-02-28,Manish Sethi,38,Full,Punch,Creative,true,Minor scratch noticed on door - dealer promised touch-up,100,2026-03-13T06:55:21.728-04:00
+101,MATHRL71573IN,Dinesh Patel,+917745134621,D013,Tata Motors Koramangala,2026-03-02,Kunal Trivedi,19,Full,Nexon,XZ+,false,,101,2026-03-13T06:55:22.036-04:00
+102,MATTGM84981IN,Dinesh Yadav,+919577567386,D005,Tata Motors Connaught Place,2026-02-26,Nikhil Desai,44,Full,Punch,Creative,true,Very happy with the vehicle condition,102,2026-03-13T06:55:22.344-04:00
+103,MATPNN51050IN,Ravi Chopra,+917947577554,D025,Tata Motors Ashram Road,2026-02-23,Manish Sethi,31,Full,Safari,XZ+,true,Requested additional floor mats,103,2026-03-13T06:55:22.652-04:00
+104,MATTGN83890IN,Rahul Chatterjee,+919760363497,D005,Tata Motors Connaught Place,2026-02-26,Sameer Khanna,37,Full,Harrier,XZ+,true,,104,2026-03-13T06:55:22.959-04:00
+105,MATNXK29685IN,Anjali Bhat,+917286817160,D008,Tata Motors Gurgaon,2026-02-28,Pankaj Dubey,41,Full,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,105,2026-03-13T06:55:23.193-04:00
+106,MATSFM27196IN,Rekha Pandey,+917016088438,D033,Tata Motors MG Road,2026-02-25,Pankaj Dubey,19,Full,Nexon,EV XZ+,true,,106,2026-03-13T06:55:23.427-04:00
+107,MATPNM69612IN,Ashok Agarwal,+919355704281,D033,Tata Motors MG Road,2026-02-23,Arjun Nambiar,20,Full,Safari,XZ+,true,Noticed slight vibration during test drive - dealer to check,107,2026-03-13T06:55:23.661-04:00
+108,MATSFN62551IN,Ajay Mishra,+919657441744,D009,Tata Motors Anna Nagar,2026-02-24,Kunal Trivedi,23,1/2,Punch,Accomplished,true,Documentation was delayed by 30 minutes,108,2026-03-13T06:55:23.896-04:00
+109,MATNXM23801IN,Lakshmi Reddy,+919865885561,D011,Tata Motors Adyar,2026-02-23,Rohit Bhardwaj,43,Full,Tiago,XE,false,AC not cooling well - dealer scheduled follow-up,109,2026-03-13T06:55:24.152-04:00
+110,MATHRK53086IN,Ashok Sinha,+917123616135,D018,Tata Motors Baner,2026-02-28,Varun Mishra,30,3/4,Harrier,XZ+ Dark,true,AC not cooling well - dealer scheduled follow-up,110,2026-03-13T06:55:24.386-04:00
+111,MATPNK37973IN,Suresh Bhat,+919127037890,D025,Tata Motors Ashram Road,2026-02-28,Manish Sethi,30,3/4,Nexon,XZ,true,All accessories installed as promised,111,2026-03-13T06:55:24.622-04:00
+112,MATSFL31565IN,Swati Rao,+918014417666,D025,Tata Motors Ashram Road,2026-02-26,Rohit Bhardwaj,39,Full,Punch,Accomplished,true,Delivery process was smooth and professional,112,2026-03-13T06:55:24.858-04:00
+113,MATTGM52432IN,Pooja Malhotra,+919812088488,D002,Tata Motors Thane,2026-02-22,Rohit Bhardwaj,45,Full,Safari,XZ,true,,113,2026-03-13T06:55:25.092-04:00
+114,MATNXL38655IN,Rahul Nair,+918825851650,D035,Tata Motors Rajpur Road,2026-02-26,Rohit Bhardwaj,32,Full,Harrier,XZ,true,All accessories installed as promised,114,2026-03-13T06:55:25.326-04:00
+115,MATTGL24860IN,Prakash Chopra,+919954020838,D004,Tata Motors Navi Mumbai,2026-02-21,Arjun Nambiar,33,Full,Tiago,XE,true,Requested additional floor mats,115,2026-03-13T06:55:25.560-04:00
+116,MATNXK95147IN,Nitin Nair,+917804281206,D009,Tata Motors Anna Nagar,2026-02-27,Kunal Trivedi,43,Full,Tiago,EV XZ+,true,Documentation was delayed by 30 minutes,116,2026-03-13T06:55:25.794-04:00
+117,MATPNM10996IN,Rekha Menon,+919494431812,D031,Tata Motors Sadar,2026-02-21,Abhishek Pandey,20,3/4,Harrier,XE,true,,117,2026-03-13T06:55:26.033-04:00
+118,MATSFN84997IN,Nitin Das,+919673560813,D009,Tata Motors Anna Nagar,2026-02-21,Manish Sethi,35,Full,Nexon,EV XZ+,true,Documentation was delayed by 30 minutes,118,2026-03-13T06:55:26.337-04:00
+119,MATHRK26558IN,Parveen Verma,+918272967392,D001,Tata Motors Andheri,2026-02-26,Sameer Khanna,40,3/4,Punch,Adventure,true,Delivery process was smooth and professional,119,2026-03-13T06:55:26.575-04:00
+120,MATSFL41420IN,Dinesh Sharma,+918361881637,D013,Tata Motors Koramangala,2026-02-24,Sameer Khanna,9,3/4,Safari,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,120,2026-03-13T06:55:26.812-04:00
+121,MATTGL24034IN,Vivek Singh,+918664435469,D009,Tata Motors Anna Nagar,2026-02-19,Pankaj Dubey,35,Full,Harrier,XE,true,,121,2026-03-13T06:55:27.052-04:00
+122,MATNXK96463IN,Karthik Banerjee,+918513888357,D022,Tata Motors Salt Lake,2026-02-25,Rohit Bhardwaj,27,3/4,Punch,Adventure,true,Noticed slight vibration during test drive - dealer to check,122,2026-03-13T06:55:27.286-04:00
+123,MATSFK38804IN,Anita Tiwari,+918324438472,D031,Tata Motors Sadar,2026-02-19,Kunal Trivedi,32,Full,Harrier,XM,true,Delivery process was smooth and professional,123,2026-03-13T06:55:27.519-04:00
+124,MATHRK61488IN,Amit Sharma,+919591879872,D007,Tata Motors Noida,2026-02-24,Nikhil Desai,21,Full,Nexon,XM,true,,124,2026-03-13T06:55:27.753-04:00
+125,MATNXK31921IN,Vivek Chatterjee,+919110011357,D026,Tata Motors SG Highway,2026-02-22,Pankaj Dubey,45,Full,Tiago,XZ+,true,Very happy with the vehicle condition,125,2026-03-13T06:55:27.988-04:00
+126,MATSFM11262IN,Priya Kapoor,+917606861247,D017,Tata Motors Hinjawadi,2026-02-23,Abhishek Pandey,17,Full,Safari,XZ+,true,,126,2026-03-13T06:55:28.222-04:00
+127,MATHRN16509IN,Rajesh Kumar,+919764868059,D006,Tata Motors Dwarka,2026-02-19,Kunal Trivedi,30,3/4,Tiago,XM,true,Minor scratch noticed on door - dealer promised touch-up,127,2026-03-13T06:55:28.458-04:00
+128,MATHRK14850IN,Prakash Kapoor,+917098602664,D023,Tata Motors Park Street,2026-02-18,Rohit Bhardwaj,43,Full,Tiago,EV XZ+,false,,128,2026-03-13T06:55:28.692-04:00
+129,MATSFK23466IN,Arun Rao,+919597287435,D034,Tata Motors Palasia,2026-02-18,Arjun Nambiar,12,Full,Punch,Pure,true,,129,2026-03-13T06:55:28.937-04:00
+130,MATSFN28056IN,Rajesh Saxena,+919140933057,D021,Tata Motors Hitech City,2026-02-17,Arjun Nambiar,6,3/4,Harrier,XE,true,,130,2026-03-13T06:55:29.171-04:00
+131,MATHRM44578IN,Anjali Reddy,+918114811891,D015,Tata Motors Jayanagar,2026-02-20,Abhishek Pandey,33,Full,Harrier,XM,true,AC not cooling well - dealer scheduled follow-up,131,2026-03-13T06:55:29.410-04:00
+132,MATHRL23849IN,Sanjay Sharma,+919994821360,D028,Tata Motors Vaishali Nagar,2026-02-21,Pankaj Dubey,36,3/4,Punch,EV Adventure,true,Excellent handover experience,132,2026-03-13T06:55:29.643-04:00
+133,MATSFN72421IN,Meera Menon,+918679453570,D034,Tata Motors Palasia,2026-02-22,Abhishek Pandey,28,3/4,Tiago,XZ,true,Noticed slight vibration during test drive - dealer to check,133,2026-03-13T06:55:29.881-04:00
+134,MATPNK99281IN,Sneha Malhotra,+918633931879,D036,Tata Motors Panchkula,2026-02-18,Kunal Trivedi,36,Full,Tiago,EV XZ+,true,Minor scratch noticed on door - dealer promised touch-up,134,2026-03-13T06:55:30.115-04:00
+135,MATPNL32417IN,Sunita Joshi,+918092579234,D025,Tata Motors Ashram Road,2026-02-18,Pankaj Dubey,9,Full,Tiago,XM,true,All accessories installed as promised,135,2026-03-13T06:55:30.348-04:00
+136,MATPNK53785IN,Rohit Pillai,+919208099999,D025,Tata Motors Ashram Road,2026-02-20,Arjun Nambiar,22,Full,Nexon,XZ+,true,All accessories installed as promised,136,2026-03-13T06:55:30.582-04:00
+137,MATNXN53997IN,Manoj Agarwal,+918516869549,D021,Tata Motors Hitech City,2026-02-20,Kunal Trivedi,32,Full,Punch,EV Adventure,true,Noticed slight vibration during test drive - dealer to check,137,2026-03-13T06:55:30.817-04:00
+138,MATHRL38869IN,Anjali Verma,+918287259885,D009,Tata Motors Anna Nagar,2026-02-15,Kunal Trivedi,25,Full,Punch,EV Adventure,true,Excellent handover experience,138,2026-03-13T06:55:31.049-04:00
+139,MATHRM99006IN,Rekha Desai,+918567313409,D034,Tata Motors Palasia,2026-02-20,Kunal Trivedi,35,Full,Tiago,XE,true,Documentation was delayed by 30 minutes,139,2026-03-13T06:55:31.286-04:00
+140,MATPNL71121IN,Kavita Nair,+919793637336,D007,Tata Motors Noida,2026-02-16,Rohit Bhardwaj,44,Full,Punch,Adventure,true,Excellent handover experience,140,2026-03-13T06:55:31.519-04:00
+141,MATTGK30321IN,Lakshmi Joshi,+918849514119,D001,Tata Motors Andheri,2026-02-16,Abhishek Pandey,26,3/4,Tiago,XE,true,,141,2026-03-13T06:55:31.755-04:00
+142,MATSFL64566IN,Lakshmi Das,+917255865747,D022,Tata Motors Salt Lake,2026-02-20,Pankaj Dubey,7,Full,Tiago,XZ,true,Requested additional floor mats,142,2026-03-13T06:55:31.989-04:00
+143,MATPNK13627IN,Rahul Malhotra,+917035178153,D038,Tata Motors Kadavanthara,2026-02-17,Sameer Khanna,34,Full,Punch,Pure,true,Documentation was delayed by 30 minutes,143,2026-03-13T06:55:32.222-04:00
+144,MATNXK87901IN,Arun Banerjee,+917196187239,D003,Tata Motors Powai,2026-02-19,Manish Sethi,33,Full,Nexon,XM,true,,144,2026-03-13T06:55:32.464-04:00
+145,MATSFN10845IN,Smita Das,+918158099624,D005,Tata Motors Connaught Place,2026-02-19,Pankaj Dubey,45,1/2,Nexon,XE,true,All accessories installed as promised,145,2026-03-13T06:55:32.700-04:00
+146,MATTGK96266IN,Vikram Rao,+917591448214,D018,Tata Motors Baner,2026-02-13,Pankaj Dubey,40,1/2,Punch,Accomplished,true,,146,2026-03-13T06:55:32.933-04:00
+147,MATPNN24068IN,Karthik Chopra,+919994459472,D038,Tata Motors Kadavanthara,2026-02-17,Sameer Khanna,24,1/2,Punch,Pure,true,,147,2026-03-13T06:55:33.166-04:00
+148,MATHRN78820IN,Suresh Menon,+917900730783,D001,Tata Motors Andheri,2026-02-16,Pankaj Dubey,19,3/4,Punch,EV Adventure,true,Noticed slight vibration during test drive - dealer to check,148,2026-03-13T06:55:33.400-04:00
+149,MATPNL89408IN,Ravi Kapoor,+919936813115,D003,Tata Motors Powai,2026-02-16,Arjun Nambiar,19,Full,Tiago,XM,true,Delivery process was smooth and professional,149,2026-03-13T06:55:33.634-04:00
+150,MATNXN60342IN,Pooja Saxena,+917431946463,D040,Tata Motors Vizag CBD,2026-02-13,Varun Mishra,14,Full,Safari,XE,true,,150,2026-03-13T06:55:33.867-04:00
+151,MATHRN31245IN,Rahul Verma,+918537468258,D012,Tata Motors Whitefield,2026-02-14,Nikhil Desai,34,3/4,Harrier,XE,true,Requested additional floor mats,151,2026-03-13T06:55:34.100-04:00
+152,MATPNN91981IN,Gaurav Yadav,+917786746301,D011,Tata Motors Adyar,2026-02-18,Pankaj Dubey,12,Full,Tiago,XZ,true,Noticed slight vibration during test drive - dealer to check,152,2026-03-13T06:55:34.334-04:00
+153,MATSFL80047IN,Bhavna Gupta,+919379442832,D004,Tata Motors Navi Mumbai,2026-02-13,Pankaj Dubey,27,Full,Punch,Adventure,false,Minor scratch noticed on door - dealer promised touch-up,153,2026-03-13T06:55:34.567-04:00
+154,MATSFN40882IN,Anjali Patel,+919592564695,D029,Tata Motors Aliganj,2026-02-17,Varun Mishra,42,Full,Harrier,XZ+ Dark,true,Noticed slight vibration during test drive - dealer to check,154,2026-03-13T06:55:34.802-04:00
+155,MATNXL13454IN,Lakshmi Pillai,+918535361190,D007,Tata Motors Noida,2026-02-16,Pankaj Dubey,19,Full,Harrier,XZ+ Dark,true,Requested additional floor mats,155,2026-03-13T06:55:35.036-04:00
+156,MATSFL17592IN,Sachin Nair,+919335673069,D024,Tata Motors Howrah,2026-02-12,Varun Mishra,31,Full,Tiago,XE,true,Minor scratch noticed on door - dealer promised touch-up,156,2026-03-13T06:55:35.270-04:00
+157,MATSFN89445IN,Suresh Tiwari,+917603001467,D013,Tata Motors Koramangala,2026-02-14,Varun Mishra,25,3/4,Nexon,XZ+ Lux,true,Requested additional floor mats,157,2026-03-13T06:55:35.505-04:00
+158,MATSFK80964IN,Rahul Kapoor,+918827087607,D039,Tata Motors Edappally,2026-02-16,Tarun Kaushik,11,Full,Tiago,XZ+,true,All accessories installed as promised,158,2026-03-13T06:55:35.740-04:00
+159,MATNXN67708IN,Bhavna Singh,+919195432667,D005,Tata Motors Connaught Place,2026-02-13,Manish Sethi,30,Full,Tiago,XE,true,,159,2026-03-13T06:55:35.976-04:00
+160,MATTGM13406IN,Prakash Joshi,+917360074046,D011,Tata Motors Adyar,2026-02-14,Abhishek Pandey,32,Full,Nexon,XZ+ Lux,true,Very happy with the vehicle condition,160,2026-03-13T06:55:36.211-04:00
+161,MATTGM65552IN,Ajay Das,+917316769486,D021,Tata Motors Hitech City,2026-02-14,Rohit Bhardwaj,36,3/4,Harrier,XM,true,,161,2026-03-13T06:55:36.451-04:00
+162,MATNXM50225IN,Divya Malhotra,+919643746843,D027,Tata Motors Civil Lines,2026-02-15,Abhishek Pandey,39,Full,Safari,XZ,true,Excellent handover experience,162,2026-03-13T06:55:36.685-04:00
+163,MATSFL74871IN,Rohit Mishra,+917977380028,D003,Tata Motors Powai,2026-02-15,Varun Mishra,16,1/2,Punch,Creative,true,Very happy with the vehicle condition,163,2026-03-13T06:55:36.918-04:00
+164,MATSFM98917IN,Bhavna Dutta,+919388231316,D004,Tata Motors Navi Mumbai,2026-02-16,Kunal Trivedi,7,Full,Punch,Creative,true,,164,2026-03-13T06:55:37.154-04:00
+165,MATSFM95456IN,Sanjay Sinha,+917653924391,D025,Tata Motors Ashram Road,2026-02-15,Sameer Khanna,14,Full,Safari,XM,true,Requested additional floor mats,165,2026-03-13T06:55:37.391-04:00
+166,MATPNL20133IN,Sunita Patel,+919918524288,D013,Tata Motors Koramangala,2026-02-12,Nikhil Desai,40,Full,Harrier,XM,true,,166,2026-03-13T06:55:37.627-04:00
+167,MATSFL53081IN,Ravi Reddy,+919024564509,D009,Tata Motors Anna Nagar,2026-02-11,Pankaj Dubey,28,Full,Nexon,XZ+ Lux,true,Documentation was delayed by 30 minutes,167,2026-03-13T06:55:37.860-04:00
+168,MATHRL26420IN,Vikram Singh,+918422645297,D013,Tata Motors Koramangala,2026-02-13,Tarun Kaushik,42,Full,Harrier,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,168,2026-03-13T06:55:38.104-04:00
+169,MATPNN82689IN,Pooja Bhat,+917872407812,D030,Tata Motors Gomti Nagar,2026-02-10,Tarun Kaushik,20,Full,Tiago,EV XZ+,true,Very happy with the vehicle condition,169,2026-03-13T06:55:38.348-04:00
+170,MATNXN56525IN,Pooja Yadav,+917163787502,D033,Tata Motors MG Road,2026-02-15,Nikhil Desai,42,Full,Harrier,XZ+ Dark,true,Excellent handover experience,170,2026-03-13T06:55:38.581-04:00
+171,MATSFM59725IN,Nitin Sharma,+918752347669,D004,Tata Motors Navi Mumbai,2026-02-08,Nikhil Desai,42,Full,Nexon,XE,true,Noticed slight vibration during test drive - dealer to check,171,2026-03-13T06:55:38.814-04:00
+172,MATSFM55527IN,Karthik Verma,+918459137933,D040,Tata Motors Vizag CBD,2026-02-12,Varun Mishra,33,Full,Safari,XM,true,,172,2026-03-13T06:55:39.052-04:00
+173,MATTGL80756IN,Anjali Reddy,+919943376914,D013,Tata Motors Koramangala,2026-02-14,Abhishek Pandey,10,Full,Tiago,XM,true,Noticed slight vibration during test drive - dealer to check,173,2026-03-13T06:55:39.285-04:00
+174,MATSFK39155IN,Komal Reddy,+917673154105,D030,Tata Motors Gomti Nagar,2026-02-09,Varun Mishra,42,Full,Safari,XZ,true,,174,2026-03-13T06:55:39.526-04:00
+175,MATNXK92219IN,Nitin Mishra,+917935577847,D007,Tata Motors Noida,2026-02-14,Manish Sethi,32,Full,Tiago,EV XZ+,true,,175,2026-03-13T06:55:39.760-04:00
+176,MATNXN18816IN,Karthik Banerjee,+919206946484,D023,Tata Motors Park Street,2026-02-10,Manish Sethi,36,Full,Harrier,XE,true,Delivery process was smooth and professional,176,2026-03-13T06:55:39.994-04:00
+177,MATPNN92578IN,Ajay Malhotra,+919657512800,D022,Tata Motors Salt Lake,2026-02-13,Varun Mishra,28,3/4,Nexon,XE,true,Minor scratch noticed on door - dealer promised touch-up,177,2026-03-13T06:55:40.231-04:00
+178,MATTGK40783IN,Sneha Sharma,+917762707279,D001,Tata Motors Andheri,2026-02-09,Sameer Khanna,13,Full,Safari,XE,true,All accessories installed as promised,178,2026-03-13T06:55:40.466-04:00
+179,MATPNL39007IN,Tanya Desai,+919383498765,D037,Tata Motors Sector 17,2026-02-08,Abhishek Pandey,7,3/4,Punch,Pure,true,Minor scratch noticed on door - dealer promised touch-up,179,2026-03-13T06:55:40.775-04:00
+180,MATHRL61842IN,Ashok Yadav,+917237469684,D036,Tata Motors Panchkula,2026-02-12,Nikhil Desai,43,Full,Nexon,EV XZ+,true,Requested additional floor mats,180,2026-03-13T06:55:41.010-04:00
+181,MATNXN59526IN,Kavita Sinha,+917204114392,D020,Tata Motors Gachibowli,2026-02-07,Tarun Kaushik,5,Full,Harrier,XZ+,true,Very happy with the vehicle condition,181,2026-03-13T06:55:41.248-04:00
+182,MATPNN48173IN,Rohit Agarwal,+919962555463,D021,Tata Motors Hitech City,2026-02-09,Manish Sethi,27,Full,Safari,XE,true,AC not cooling well - dealer scheduled follow-up,182,2026-03-13T06:55:41.484-04:00
+183,MATPNM68600IN,Deepa Joshi,+918820912087,D027,Tata Motors Civil Lines,2026-02-12,Kunal Trivedi,37,Full,Harrier,XM,true,Very happy with the vehicle condition,183,2026-03-13T06:55:41.727-04:00
+184,MATNXN84096IN,Tanya Agarwal,+917567633467,D026,Tata Motors SG Highway,2026-02-12,Manish Sethi,16,Full,Safari,XM,true,Delivery process was smooth and professional,184,2026-03-13T06:55:41.962-04:00
+185,MATPNL59241IN,Kavita Joshi,+918206101033,D002,Tata Motors Thane,2026-02-06,Rohit Bhardwaj,8,Full,Punch,Adventure,true,,185,2026-03-13T06:55:42.197-04:00
+186,MATPNM98694IN,Suresh Joshi,+919299599336,D005,Tata Motors Connaught Place,2026-02-06,Kunal Trivedi,15,Full,Harrier,XZ+,true,,186,2026-03-13T06:55:42.433-04:00
+187,MATNXL64565IN,Tanya Malhotra,+917846052097,D017,Tata Motors Hinjawadi,2026-02-12,Varun Mishra,29,Full,Nexon,XZ+,true,Excellent handover experience,187,2026-03-13T06:55:42.667-04:00
+188,MATPNL83546IN,Manoj Rao,+917038816171,D013,Tata Motors Koramangala,2026-02-08,Arjun Nambiar,39,Full,Tiago,XE,true,,188,2026-03-13T06:55:42.901-04:00
+189,MATHRL10350IN,Sachin Joshi,+918633700822,D017,Tata Motors Hinjawadi,2026-02-10,Abhishek Pandey,5,Full,Tiago,XZ+,true,AC not cooling well - dealer scheduled follow-up,189,2026-03-13T06:55:43.139-04:00
+190,MATPNM50863IN,Parveen Rao,+919070787268,D019,Tata Motors Jubilee Hills,2026-02-07,Nikhil Desai,7,Full,Harrier,XE,true,,190,2026-03-13T06:55:43.374-04:00
+191,MATSFM13315IN,Suresh Kapoor,+917216269226,D034,Tata Motors Palasia,2026-02-07,Manish Sethi,5,Full,Tiago,XE,true,Minor scratch noticed on door - dealer promised touch-up,191,2026-03-13T06:55:43.608-04:00
+192,MATNXM50683IN,Sunita Pandey,+917118474729,D014,Tata Motors Electronic City,2026-02-09,Kunal Trivedi,43,Full,Harrier,XM,true,Noticed slight vibration during test drive - dealer to check,192,2026-03-13T06:55:43.841-04:00
+193,MATPNK72055IN,Bhavna Pillai,+917347578703,D022,Tata Motors Salt Lake,2026-02-04,Varun Mishra,42,Full,Nexon,XZ,true,Excellent handover experience,193,2026-03-13T06:55:44.076-04:00
+194,MATSFM86919IN,Sunita Iyer,+918560656370,D007,Tata Motors Noida,2026-02-06,Rohit Bhardwaj,43,Full,Tiago,XZ,true,Delivery process was smooth and professional,194,2026-03-13T06:55:44.310-04:00
+195,MATSFM83473IN,Gaurav Tiwari,+917493421693,D008,Tata Motors Gurgaon,2026-02-06,Abhishek Pandey,16,Full,Safari,XM,true,Very happy with the vehicle condition,195,2026-03-13T06:55:44.545-04:00
+196,MATSFM27397IN,Vivek Malhotra,+919939283757,D038,Tata Motors Kadavanthara,2026-02-07,Varun Mishra,37,Full,Tiago,XM,true,Requested additional floor mats,196,2026-03-13T06:55:44.790-04:00
+197,MATSFN94125IN,Smita Pillai,+918721388556,D016,Tata Motors Kothrud,2026-02-05,Varun Mishra,13,Full,Safari,XZ,true,Requested additional floor mats,197,2026-03-13T06:55:45.026-04:00
+198,MATTGN58795IN,Vivek Chatterjee,+917939561388,D015,Tata Motors Jayanagar,2026-02-10,Sameer Khanna,28,Full,Harrier,XE,true,,198,2026-03-13T06:55:45.261-04:00
+199,MATTGN87801IN,Dinesh Pandey,+919253796579,D011,Tata Motors Adyar,2026-02-05,Manish Sethi,23,3/4,Nexon,EV XZ+,true,AC not cooling well - dealer scheduled follow-up,199,2026-03-13T06:55:45.494-04:00
+200,MATPNL13742IN,Swati Agarwal,+919814392245,D020,Tata Motors Gachibowli,2026-02-05,Tarun Kaushik,29,1/2,Tiago,XZ,true,Requested additional floor mats,200,2026-03-13T06:55:45.727-04:00
+201,MATSFL61903IN,Neha Desai,+918822195389,D030,Tata Motors Gomti Nagar,2026-02-06,Arjun Nambiar,18,Full,Nexon,XZ+,false,,201,2026-03-13T06:55:45.970-04:00
+202,MATSFN71708IN,Rekha Rao,+917415590999,D036,Tata Motors Panchkula,2026-02-03,Tarun Kaushik,16,Full,Safari,XE,true,,202,2026-03-13T06:55:46.205-04:00
+203,MATNXK74003IN,Harsh Joshi,+917484019819,D040,Tata Motors Vizag CBD,2026-02-05,Abhishek Pandey,30,1/2,Tiago,XZ+,true,Very happy with the vehicle condition,203,2026-03-13T06:55:46.440-04:00
+204,MATPNM47350IN,Ravi Desai,+917116879615,D028,Tata Motors Vaishali Nagar,2026-02-06,Tarun Kaushik,29,Full,Tiago,XE,true,Documentation was delayed by 30 minutes,204,2026-03-13T06:55:46.680-04:00
+205,MATPNK65372IN,Smita Bhat,+919074624931,D007,Tata Motors Noida,2026-02-06,Sameer Khanna,18,Full,Harrier,XE,true,Very happy with the vehicle condition,205,2026-03-13T06:55:46.917-04:00
+206,MATPNK29711IN,Priya Iyer,+919324795806,D037,Tata Motors Sector 17,2026-02-03,Arjun Nambiar,36,Full,Punch,Adventure,true,Very happy with the vehicle condition,206,2026-03-13T06:55:47.174-04:00
+207,MATNXL45027IN,Manoj Chopra,+917338262722,D032,Tata Motors Dharampeth,2026-02-06,Pankaj Dubey,41,1/2,Tiago,XZ,true,,207,2026-03-13T06:55:47.408-04:00
+208,MATHRN84588IN,Ajay Singh,+919840350511,D034,Tata Motors Palasia,2026-02-09,Nikhil Desai,35,3/4,Safari,XM,true,Documentation was delayed by 30 minutes,208,2026-03-13T06:55:47.641-04:00
+209,MATTGL80668IN,Meera Kumar,+917187608505,D026,Tata Motors SG Highway,2026-02-03,Tarun Kaushik,8,Full,Harrier,XM,true,,209,2026-03-13T06:55:47.876-04:00
+210,MATHRL64306IN,Suresh Kumar,+919333095391,D036,Tata Motors Panchkula,2026-02-06,Manish Sethi,15,Full,Nexon,XM,true,Noticed slight vibration during test drive - dealer to check,210,2026-03-13T06:55:48.109-04:00
+211,MATTGM54951IN,Bhavna Gupta,+917087712916,D026,Tata Motors SG Highway,2026-02-02,Varun Mishra,39,Full,Safari,XM,true,Requested additional floor mats,211,2026-03-13T06:55:48.344-04:00
+212,MATNXL91902IN,Sneha Pandey,+919063553408,D035,Tata Motors Rajpur Road,2026-02-07,Pankaj Dubey,33,Full,Nexon,XZ+ Lux,true,AC not cooling well - dealer scheduled follow-up,212,2026-03-13T06:55:48.580-04:00
+213,MATHRM24500IN,Ravi Tiwari,+919476268205,D038,Tata Motors Kadavanthara,2026-02-06,Manish Sethi,23,Full,Nexon,XZ+,true,Documentation was delayed by 30 minutes,213,2026-03-13T06:55:48.816-04:00
+214,MATTGN79796IN,Nitin Nair,+917579055539,D008,Tata Motors Gurgaon,2026-02-02,Varun Mishra,36,Full,Safari,XE,true,Requested additional floor mats,214,2026-03-13T06:55:49.049-04:00
+215,MATTGN64823IN,Divya Rao,+918528777081,D031,Tata Motors Sadar,2026-02-08,Kunal Trivedi,11,Full,Harrier,XM,true,,215,2026-03-13T06:55:49.286-04:00
+216,MATPNL41367IN,Anjali Kumar,+919115340169,D032,Tata Motors Dharampeth,2026-02-02,Arjun Nambiar,45,3/4,Safari,XZ,true,AC not cooling well - dealer scheduled follow-up,216,2026-03-13T06:55:49.519-04:00
+217,MATSFN42094IN,Rohit Pandey,+918044767909,D002,Tata Motors Thane,2026-02-04,Varun Mishra,31,Full,Tiago,XM,true,Documentation was delayed by 30 minutes,217,2026-03-13T06:55:49.752-04:00
+218,MATSFM15230IN,Sunita Tiwari,+918513542623,D017,Tata Motors Hinjawadi,2026-02-04,Manish Sethi,16,Full,Tiago,XZ+,true,,218,2026-03-13T06:55:49.989-04:00
+219,MATPNM42077IN,Ajay Menon,+919614786508,D013,Tata Motors Koramangala,2026-02-04,Rohit Bhardwaj,18,Full,Harrier,XZ+ Dark,true,,219,2026-03-13T06:55:50.222-04:00
+220,MATSFL26849IN,Prakash Tiwari,+917907351140,D040,Tata Motors Vizag CBD,2026-02-01,Kunal Trivedi,42,Full,Nexon,XE,true,,220,2026-03-13T06:55:50.460-04:00
+221,MATSFN59068IN,Bhavna Nair,+919996596068,D012,Tata Motors Whitefield,2026-02-04,Sameer Khanna,12,Full,Punch,Pure,true,,221,2026-03-13T06:55:50.693-04:00
+222,MATPNK84633IN,Vikram Rao,+919120647095,D034,Tata Motors Palasia,2026-02-04,Pankaj Dubey,17,Full,Harrier,XM,true,,222,2026-03-13T06:55:50.929-04:00
+223,MATHRN39928IN,Manoj Saxena,+919968050530,D005,Tata Motors Connaught Place,2026-02-04,Arjun Nambiar,31,3/4,Tiago,XE,true,Very happy with the vehicle condition,223,2026-03-13T06:55:51.163-04:00
+224,MATPNK80376IN,Sachin Mukherjee,+919262946995,D016,Tata Motors Kothrud,2026-02-01,Pankaj Dubey,22,Full,Tiago,XE,true,,224,2026-03-13T06:55:51.397-04:00
+225,MATPNN45486IN,Ajay Tiwari,+917241730774,D009,Tata Motors Anna Nagar,2026-02-02,Arjun Nambiar,35,Full,Nexon,XZ,true,AC not cooling well - dealer scheduled follow-up,225,2026-03-13T06:55:51.630-04:00
+226,MATPNN51839IN,Sunita Bhat,+918429830146,D028,Tata Motors Vaishali Nagar,2026-02-02,Kunal Trivedi,19,Full,Safari,Adventure,true,Very happy with the vehicle condition,226,2026-03-13T06:55:51.864-04:00
+227,MATPNM99751IN,Ajay Dutta,+919516836217,D006,Tata Motors Dwarka,2026-02-05,Kunal Trivedi,12,Full,Harrier,XZ+ Dark,true,AC not cooling well - dealer scheduled follow-up,227,2026-03-13T06:55:52.099-04:00
+228,MATSFN44452IN,Ajay Sinha,+917661971081,D037,Tata Motors Sector 17,2026-02-01,Nikhil Desai,25,Full,Punch,EV Adventure,true,,228,2026-03-13T06:55:52.334-04:00
+229,MATSFL36504IN,Meera Kumar,+919577834585,D018,Tata Motors Baner,2026-02-03,Nikhil Desai,25,Full,Punch,Adventure,true,Excellent handover experience,229,2026-03-13T06:55:52.568-04:00
+230,MATPNK71587IN,Ravi Tiwari,+919119699593,D039,Tata Motors Edappally,2026-02-04,Rohit Bhardwaj,16,3/4,Punch,Adventure,true,AC not cooling well - dealer scheduled follow-up,230,2026-03-13T06:55:52.802-04:00
+231,MATSFL29893IN,Arun Verma,+917160299591,D015,Tata Motors Jayanagar,2026-01-31,Varun Mishra,39,Full,Safari,XZ,true,Minor scratch noticed on door - dealer promised touch-up,231,2026-03-13T06:55:53.038-04:00
+232,MATSFL38155IN,Ravi Singh,+917892963171,D009,Tata Motors Anna Nagar,2026-02-01,Kunal Trivedi,21,Full,Harrier,XZ+,true,Requested additional floor mats,232,2026-03-13T06:55:53.273-04:00
+233,MATNXK58952IN,Sneha Mukherjee,+918040934434,D026,Tata Motors SG Highway,2026-01-30,Sameer Khanna,35,Full,Nexon,XE,true,AC not cooling well - dealer scheduled follow-up,233,2026-03-13T06:55:53.534-04:00
+234,MATTGL89958IN,Komal Patel,+919794358042,D039,Tata Motors Edappally,2026-01-31,Abhishek Pandey,32,Full,Tiago,XZ,true,Documentation was delayed by 30 minutes,234,2026-03-13T06:55:53.768-04:00
+235,MATPNK48510IN,Rekha Reddy,+919704273567,D025,Tata Motors Ashram Road,2026-02-02,Tarun Kaushik,7,Full,Nexon,XM,true,Documentation was delayed by 30 minutes,235,2026-03-13T06:55:54.028-04:00
+236,MATHRL29435IN,Neha Chopra,+917462186314,D038,Tata Motors Kadavanthara,2026-02-03,Manish Sethi,35,Full,Nexon,XZ+,true,Delivery process was smooth and professional,236,2026-03-13T06:55:54.265-04:00
+237,MATSFN27997IN,Pooja Rao,+918719962954,D038,Tata Motors Kadavanthara,2026-02-02,Kunal Trivedi,9,Full,Harrier,XM,true,Documentation was delayed by 30 minutes,237,2026-03-13T06:55:54.500-04:00
+238,MATSFL35032IN,Arun Dutta,+918841649051,D038,Tata Motors Kadavanthara,2026-01-31,Manish Sethi,6,Full,Safari,XZ+,true,Noticed slight vibration during test drive - dealer to check,238,2026-03-13T06:55:54.740-04:00
+239,MATPNM12077IN,Manoj Chopra,+918261579013,D013,Tata Motors Koramangala,2026-02-02,Sameer Khanna,16,Full,Tiago,XE,true,Excellent handover experience,239,2026-03-13T06:55:54.976-04:00
+240,MATHRK57850IN,Meera Singh,+919956421142,D012,Tata Motors Whitefield,2026-01-29,Abhishek Pandey,38,3/4,Tiago,XZ,true,Very happy with the vehicle condition,240,2026-03-13T06:55:55.211-04:00
+241,MATNXK18693IN,Sneha Rao,+919893559617,D036,Tata Motors Panchkula,2026-02-03,Arjun Nambiar,16,Full,Nexon,EV XZ+,true,Minor scratch noticed on door - dealer promised touch-up,241,2026-03-13T06:55:55.521-04:00
+242,MATNXL74592IN,Suresh Yadav,+919337656806,D005,Tata Motors Connaught Place,2026-01-28,Varun Mishra,24,Full,Nexon,XZ,true,All accessories installed as promised,242,2026-03-13T06:55:55.828-04:00
+243,MATTGM77751IN,Meera Reddy,+919875059939,D017,Tata Motors Hinjawadi,2026-02-03,Sameer Khanna,15,Full,Punch,EV Adventure,true,Delivery process was smooth and professional,243,2026-03-13T06:55:56.063-04:00
+244,MATHRK52274IN,Ajay Menon,+918886428005,D015,Tata Motors Jayanagar,2026-01-27,Rohit Bhardwaj,27,Full,Harrier,XZ+ Dark,true,,244,2026-03-13T06:55:56.340-04:00
+245,MATSFN81945IN,Harsh Rao,+919823382703,D037,Tata Motors Sector 17,2026-02-01,Varun Mishra,26,Full,Harrier,XM,true,Documentation was delayed by 30 minutes,245,2026-03-13T06:55:56.647-04:00
+246,MATNXL76155IN,Prakash Menon,+917442597044,D001,Tata Motors Andheri,2026-02-02,Tarun Kaushik,36,Full,Harrier,XZ+ Dark,true,Documentation was delayed by 30 minutes,246,2026-03-13T06:55:56.955-04:00
+247,MATNXL31710IN,Vikram Yadav,+917826868853,D036,Tata Motors Panchkula,2026-02-01,Manish Sethi,7,Full,Punch,Adventure,true,,247,2026-03-13T06:55:57.262-04:00
+248,MATNXM82844IN,Nitin Kumar,+919939377693,D040,Tata Motors Vizag CBD,2026-01-28,Abhishek Pandey,8,Full,Nexon,XZ,true,Requested additional floor mats,248,2026-03-13T06:55:57.569-04:00
+249,MATNXL46204IN,Vikram Agarwal,+917303220952,D006,Tata Motors Dwarka,2026-02-01,Sameer Khanna,17,Full,Nexon,XZ+ Lux,true,Minor scratch noticed on door - dealer promised touch-up,249,2026-03-13T06:55:57.877-04:00
+250,MATSFN80943IN,Prakash Banerjee,+917753459205,D008,Tata Motors Gurgaon,2026-01-27,Sameer Khanna,45,1/2,Harrier,XZ+,true,Requested additional floor mats,250,2026-03-13T06:55:58.112-04:00
+251,MATNXM89077IN,Gaurav Rao,+919504335390,D009,Tata Motors Anna Nagar,2026-01-31,Rohit Bhardwaj,43,Full,Nexon,XE,true,Delivery process was smooth and professional,251,2026-03-13T06:55:58.345-04:00
+252,MATNXL73641IN,Manoj Chatterjee,+918648079302,D019,Tata Motors Jubilee Hills,2026-01-27,Varun Mishra,41,Full,Safari,XM,true,Excellent handover experience,252,2026-03-13T06:55:58.580-04:00
+253,MATTGK85448IN,Dinesh Saxena,+917824095060,D027,Tata Motors Civil Lines,2026-02-01,Abhishek Pandey,6,3/4,Harrier,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,253,2026-03-13T06:55:58.815-04:00
+254,MATNXL84308IN,Meera Sinha,+919709806957,D030,Tata Motors Gomti Nagar,2026-01-27,Nikhil Desai,23,Full,Tiago,XZ+,true,,254,2026-03-13T06:55:59.049-04:00
+255,MATHRM83200IN,Arun Iyer,+918761415531,D027,Tata Motors Civil Lines,2026-01-30,Arjun Nambiar,17,3/4,Safari,XZ,true,All accessories installed as promised,255,2026-03-13T06:55:59.283-04:00
+256,MATSFM67379IN,Manoj Joshi,+918105328182,D023,Tata Motors Park Street,2026-01-30,Arjun Nambiar,35,Full,Nexon,XZ+ Lux,true,AC not cooling well - dealer scheduled follow-up,256,2026-03-13T06:55:59.517-04:00
+257,MATPNK60494IN,Gaurav Rao,+919629782909,D030,Tata Motors Gomti Nagar,2026-01-30,Tarun Kaushik,7,Full,Harrier,XZ+ Dark,true,Delivery process was smooth and professional,257,2026-03-13T06:55:59.750-04:00
+258,MATHRL48901IN,Sanjay Nair,+918220968131,D033,Tata Motors MG Road,2026-01-31,Arjun Nambiar,40,Full,Harrier,XZ+,true,,258,2026-03-13T06:55:59.986-04:00
+259,MATSFM58526IN,Divya Das,+917089436484,D016,Tata Motors Kothrud,2026-01-29,Manish Sethi,22,Full,Nexon,EV XZ+,true,,259,2026-03-13T06:56:00.220-04:00
+260,MATTGL23737IN,Ashok Nair,+919402786725,D028,Tata Motors Vaishali Nagar,2026-01-29,Kunal Trivedi,44,1/2,Nexon,XE,true,Noticed slight vibration during test drive - dealer to check,260,2026-03-13T06:56:00.459-04:00
+261,MATPNM18359IN,Rajesh Joshi,+919445203144,D025,Tata Motors Ashram Road,2026-01-31,Rohit Bhardwaj,43,3/4,Safari,XZ,true,Delivery process was smooth and professional,261,2026-03-13T06:56:00.693-04:00
+262,MATHRN76578IN,Nitin Mukherjee,+917412858580,D011,Tata Motors Adyar,2026-01-26,Manish Sethi,30,Full,Nexon,XE,true,,262,2026-03-13T06:56:00.927-04:00
+263,MATHRN95119IN,Tanya Bhat,+917865045737,D030,Tata Motors Gomti Nagar,2026-01-30,Sameer Khanna,7,Full,Safari,XM,true,Delivery process was smooth and professional,263,2026-03-13T06:56:01.160-04:00
+264,MATPNM39706IN,Karthik Chatterjee,+919184672658,D016,Tata Motors Kothrud,2026-01-26,Manish Sethi,18,3/4,Nexon,EV XZ+,false,AC not cooling well - dealer scheduled follow-up,264,2026-03-13T06:56:01.394-04:00
+265,MATNXL99545IN,Komal Sinha,+918726427196,D028,Tata Motors Vaishali Nagar,2026-01-29,Rohit Bhardwaj,38,1/2,Harrier,XZ,true,Documentation was delayed by 30 minutes,265,2026-03-13T06:56:01.628-04:00
+266,MATTGK31939IN,Komal Banerjee,+918109021151,D012,Tata Motors Whitefield,2026-01-28,Manish Sethi,6,Full,Tiago,EV XZ+,true,AC not cooling well - dealer scheduled follow-up,266,2026-03-13T06:56:01.861-04:00
+267,MATHRM15451IN,Priya Pandey,+918860709847,D009,Tata Motors Anna Nagar,2026-01-30,Abhishek Pandey,8,Full,Tiago,XM,true,Noticed slight vibration during test drive - dealer to check,267,2026-03-13T06:56:02.096-04:00
+268,MATPNN48398IN,Pooja Sharma,+917922957561,D036,Tata Motors Panchkula,2026-01-24,Kunal Trivedi,21,Full,Punch,EV Adventure,false,Noticed slight vibration during test drive - dealer to check,268,2026-03-13T06:56:02.337-04:00
+269,MATNXL87000IN,Divya Verma,+919063450241,D038,Tata Motors Kadavanthara,2026-01-24,Pankaj Dubey,31,Full,Harrier,XM,true,Excellent handover experience,269,2026-03-13T06:56:02.571-04:00
+270,MATHRL69930IN,Vikram Chatterjee,+919169745260,D002,Tata Motors Thane,2026-01-25,Rohit Bhardwaj,6,Full,Punch,Creative,true,Excellent handover experience,270,2026-03-13T06:56:02.806-04:00
+271,MATHRL88479IN,Ravi Banerjee,+919933851809,D006,Tata Motors Dwarka,2026-01-25,Nikhil Desai,18,Full,Nexon,XE,true,Delivery process was smooth and professional,271,2026-03-13T06:56:03.040-04:00
+272,MATSFM73991IN,Anjali Banerjee,+919221025989,D027,Tata Motors Civil Lines,2026-01-26,Pankaj Dubey,6,3/4,Harrier,XZ,false,Minor scratch noticed on door - dealer promised touch-up,272,2026-03-13T06:56:03.276-04:00
+273,MATSFM47544IN,Priya Sinha,+918439345440,D027,Tata Motors Civil Lines,2026-01-24,Rohit Bhardwaj,31,3/4,Harrier,XM,true,Very happy with the vehicle condition,273,2026-03-13T06:56:03.512-04:00
+274,MATHRM90651IN,Divya Menon,+917195683634,D011,Tata Motors Adyar,2026-01-25,Nikhil Desai,21,3/4,Punch,Accomplished,true,Requested additional floor mats,274,2026-03-13T06:56:03.748-04:00
+275,MATNXL59811IN,Sachin Tiwari,+919306652517,D016,Tata Motors Kothrud,2026-01-22,Abhishek Pandey,15,3/4,Punch,Accomplished,true,,275,2026-03-13T06:56:03.986-04:00
+276,MATSFK28807IN,Amit Pandey,+917558573679,D017,Tata Motors Hinjawadi,2026-01-24,Pankaj Dubey,8,1/2,Nexon,XZ,true,Very happy with the vehicle condition,276,2026-03-13T06:56:04.221-04:00
+277,MATTGN55239IN,Nitin Pandey,+919106691531,D019,Tata Motors Jubilee Hills,2026-01-25,Rohit Bhardwaj,16,Full,Nexon,XM,true,Minor scratch noticed on door - dealer promised touch-up,277,2026-03-13T06:56:04.459-04:00
+278,MATPNL80975IN,Vikram Sinha,+918766400236,D003,Tata Motors Powai,2026-01-25,Arjun Nambiar,38,Full,Punch,Adventure,true,AC not cooling well - dealer scheduled follow-up,278,2026-03-13T06:56:04.694-04:00
+279,MATHRL35030IN,Tanya Pandey,+917222353324,D022,Tata Motors Salt Lake,2026-01-24,Rohit Bhardwaj,17,Full,Tiago,XM,true,,279,2026-03-13T06:56:04.929-04:00
+280,MATPNL36137IN,Pooja Sharma,+917341305488,D020,Tata Motors Gachibowli,2026-01-26,Nikhil Desai,33,Full,Punch,Creative,true,Delivery process was smooth and professional,280,2026-03-13T06:56:05.162-04:00
+281,MATHRN51483IN,Komal Sinha,+917895055028,D020,Tata Motors Gachibowli,2026-01-20,Sameer Khanna,23,Full,Punch,Accomplished,true,Delivery process was smooth and professional,281,2026-03-13T06:56:05.395-04:00
+282,MATSFM57571IN,Parveen Mishra,+918504433180,D029,Tata Motors Aliganj,2026-01-21,Kunal Trivedi,29,Full,Safari,XM,true,Very happy with the vehicle condition,282,2026-03-13T06:56:05.629-04:00
+283,MATHRK22723IN,Nitin Rao,+917629990079,D035,Tata Motors Rajpur Road,2026-01-23,Sameer Khanna,17,Full,Harrier,XM,true,Minor scratch noticed on door - dealer promised touch-up,283,2026-03-13T06:56:05.864-04:00
+284,MATNXM27687IN,Sanjay Gupta,+919700967584,D029,Tata Motors Aliganj,2026-01-25,Abhishek Pandey,21,Full,Nexon,XZ+ Lux,true,Requested additional floor mats,284,2026-03-13T06:56:06.099-04:00
+285,MATNXL51755IN,Kavita Joshi,+917450763693,D011,Tata Motors Adyar,2026-01-25,Kunal Trivedi,9,Full,Harrier,XE,true,Very happy with the vehicle condition,285,2026-03-13T06:56:06.333-04:00
+286,MATPNN58076IN,Vivek Agarwal,+918811097232,D001,Tata Motors Andheri,2026-01-22,Varun Mishra,35,Full,Nexon,XZ+ Lux,true,,286,2026-03-13T06:56:06.568-04:00
+287,MATHRM33213IN,Manoj Tiwari,+917532712847,D039,Tata Motors Edappally,2026-01-23,Manish Sethi,24,Full,Safari,XZ,true,Noticed slight vibration during test drive - dealer to check,287,2026-03-13T06:56:06.801-04:00
+288,MATHRK34323IN,Neha Agarwal,+918775867765,D007,Tata Motors Noida,2026-01-22,Nikhil Desai,29,Full,Safari,XM,true,All accessories installed as promised,288,2026-03-13T06:56:07.036-04:00
+289,MATNXK34238IN,Amit Bhat,+919638197439,D035,Tata Motors Rajpur Road,2026-01-21,Kunal Trivedi,43,Full,Punch,Creative,true,Noticed slight vibration during test drive - dealer to check,289,2026-03-13T06:56:07.270-04:00
+290,MATTGM95831IN,Sunita Mukherjee,+918170872505,D024,Tata Motors Howrah,2026-01-25,Tarun Kaushik,20,3/4,Safari,Adventure,true,AC not cooling well - dealer scheduled follow-up,290,2026-03-13T06:56:07.504-04:00
+291,MATPNM72973IN,Karthik Banerjee,+918521026569,D010,Tata Motors OMR,2026-01-21,Arjun Nambiar,33,Full,Tiago,XE,true,,291,2026-03-13T06:56:07.738-04:00
+292,MATPNN28623IN,Kavita Desai,+918672002404,D011,Tata Motors Adyar,2026-01-25,Manish Sethi,31,Full,Safari,XE,true,Minor scratch noticed on door - dealer promised touch-up,292,2026-03-13T06:56:07.972-04:00
+293,MATPNM29647IN,Deepa Sharma,+919061663621,D017,Tata Motors Hinjawadi,2026-01-25,Rohit Bhardwaj,34,Full,Safari,XZ,true,Noticed slight vibration during test drive - dealer to check,293,2026-03-13T06:56:08.204-04:00
+294,MATNXM72482IN,Arun Menon,+917379103373,D005,Tata Motors Connaught Place,2026-01-20,Varun Mishra,25,Full,Safari,Adventure,true,Excellent handover experience,294,2026-03-13T06:56:08.440-04:00
+295,MATSFN58439IN,Swati Patel,+919671427891,D008,Tata Motors Gurgaon,2026-01-24,Abhishek Pandey,8,Full,Tiago,XE,true,,295,2026-03-13T06:56:08.677-04:00
+296,MATHRL52183IN,Meera Malhotra,+917143869119,D001,Tata Motors Andheri,2026-01-22,Rohit Bhardwaj,28,Full,Safari,XZ,true,,296,2026-03-13T06:56:08.916-04:00
+297,MATNXL61062IN,Sanjay Malhotra,+918131258125,D016,Tata Motors Kothrud,2026-01-19,Pankaj Dubey,20,Full,Punch,EV Adventure,false,Delivery process was smooth and professional,297,2026-03-13T06:56:09.155-04:00
+298,MATHRK89309IN,Anjali Pillai,+918056569719,D013,Tata Motors Koramangala,2026-01-23,Pankaj Dubey,16,3/4,Harrier,XZ+ Dark,true,,298,2026-03-13T06:56:09.389-04:00
+299,MATPNL82779IN,Anjali Patel,+919711403519,D012,Tata Motors Whitefield,2026-01-20,Sameer Khanna,7,Full,Tiago,XE,true,Documentation was delayed by 30 minutes,299,2026-03-13T06:56:09.623-04:00
+300,MATNXM66919IN,Pooja Kumar,+917257397391,D040,Tata Motors Vizag CBD,2026-01-22,Arjun Nambiar,24,Full,Nexon,XZ+,true,Delivery process was smooth and professional,300,2026-03-13T06:56:09.867-04:00
+301,MATPNK81448IN,Rohit Kumar,+917337861091,D037,Tata Motors Sector 17,2026-01-23,Abhishek Pandey,43,Full,Punch,Creative,true,Requested additional floor mats,301,2026-03-13T06:56:10.100-04:00
+302,MATHRM75612IN,Nitin Kumar,+917372646990,D011,Tata Motors Adyar,2026-01-23,Kunal Trivedi,11,Full,Safari,XZ+,true,Very happy with the vehicle condition,302,2026-03-13T06:56:10.334-04:00
+303,MATTGM44818IN,Vivek Saxena,+918188339378,D023,Tata Motors Park Street,2026-01-22,Rohit Bhardwaj,32,Full,Harrier,XE,true,Noticed slight vibration during test drive - dealer to check,303,2026-03-13T06:56:10.568-04:00
+304,MATNXL23989IN,Anjali Dutta,+917399472354,D003,Tata Motors Powai,2026-01-20,Kunal Trivedi,31,Full,Harrier,XE,true,Minor scratch noticed on door - dealer promised touch-up,304,2026-03-13T06:56:10.804-04:00
+305,MATPNM83509IN,Rekha Malhotra,+919506329764,D002,Tata Motors Thane,2026-01-22,Rohit Bhardwaj,30,Full,Punch,Adventure,true,Requested additional floor mats,305,2026-03-13T06:56:11.038-04:00
+306,MATNXL58241IN,Deepa Chopra,+919637582799,D030,Tata Motors Gomti Nagar,2026-01-20,Sameer Khanna,28,Full,Punch,Creative,true,Delivery process was smooth and professional,306,2026-03-13T06:56:11.273-04:00
+307,MATPNK11880IN,Smita Pillai,+917072051778,D039,Tata Motors Edappally,2026-01-20,Kunal Trivedi,44,Full,Harrier,XZ,true,AC not cooling well - dealer scheduled follow-up,307,2026-03-13T06:56:11.598-04:00
+308,MATNXM46808IN,Manoj Sharma,+917775158512,D001,Tata Motors Andheri,2026-01-17,Abhishek Pandey,16,Full,Harrier,XZ,true,,308,2026-03-13T06:56:11.906-04:00
+309,MATPNL81380IN,Meera Tiwari,+919066646771,D026,Tata Motors SG Highway,2026-01-18,Arjun Nambiar,44,Full,Safari,XM,true,,309,2026-03-13T06:56:12.214-04:00
+310,MATTGN57229IN,Ravi Patel,+918522794974,D028,Tata Motors Vaishali Nagar,2026-01-16,Varun Mishra,18,3/4,Safari,XZ+,true,Requested additional floor mats,310,2026-03-13T06:56:12.522-04:00
+311,MATTGL85195IN,Lakshmi Desai,+918320824098,D009,Tata Motors Anna Nagar,2026-01-15,Manish Sethi,20,Full,Safari,XZ+,true,,311,2026-03-13T06:56:12.829-04:00
+312,MATPNM52662IN,Rekha Malhotra,+919148955631,D032,Tata Motors Dharampeth,2026-01-17,Pankaj Dubey,15,Full,Punch,Pure,true,Minor scratch noticed on door - dealer promised touch-up,312,2026-03-13T06:56:13.062-04:00
+313,MATNXK28920IN,Karthik Sharma,+917807357658,D030,Tata Motors Gomti Nagar,2026-01-21,Pankaj Dubey,43,Full,Tiago,XZ,true,AC not cooling well - dealer scheduled follow-up,313,2026-03-13T06:56:13.296-04:00
+314,MATSFM60822IN,Sneha Menon,+918085460482,D001,Tata Motors Andheri,2026-03-13,Manish Sethi,25,Full,Safari,XZ,true,Requested additional floor mats,314,2026-03-13T06:56:13.300-04:00
+315,MATTGN56013IN,Rajesh Iyer,+918021388428,D031,Tata Motors Sadar,2026-03-13,Sameer Khanna,14,Full,Punch,Creative,true,AC not cooling well - dealer scheduled follow-up,315,2026-03-13T06:56:13.530-04:00
+316,MATTGN76361IN,Rahul Dutta,+917970362617,D030,Tata Motors Gomti Nagar,2026-01-21,Kunal Trivedi,35,Full,Tiago,XZ,true,,316,2026-03-13T06:56:13.531-04:00
+317,MATPNK30289IN,Pooja Das,+917741654300,D010,Tata Motors OMR,2026-03-13,Pankaj Dubey,17,Full,Safari,XZ+,true,,317,2026-03-13T06:56:13.764-04:00
+318,MATTGN13103IN,Rohit Rao,+918331842715,D008,Tata Motors Gurgaon,2026-01-19,Manish Sethi,35,Full,Tiago,XM,true,Very happy with the vehicle condition,318,2026-03-13T06:56:13.765-04:00
+319,MATNXK31233IN,Suresh Kumar,+919366473835,D017,Tata Motors Hinjawadi,2026-03-13,Varun Mishra,21,Full,Tiago,XZ+,true,AC not cooling well - dealer scheduled follow-up,319,2026-03-13T06:56:13.995-04:00
+320,MATTGM24778IN,Vikram Bhat,+919896165215,D021,Tata Motors Hitech City,2026-01-16,Arjun Nambiar,5,Full,Safari,XE,true,Very happy with the vehicle condition,320,2026-03-13T06:56:13.999-04:00
+321,MATHRL76829IN,Meera Kumar,+919994581907,D008,Tata Motors Gurgaon,2026-03-13,Varun Mishra,40,3/4,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,321,2026-03-13T06:56:14.226-04:00
+322,MATHRN90595IN,Rohit Kapoor,+918367000952,D020,Tata Motors Gachibowli,2026-01-16,Kunal Trivedi,10,Full,Harrier,XE,false,All accessories installed as promised,322,2026-03-13T06:56:14.234-04:00
+323,MATSFM89337IN,Manoj Kumar,+917910691810,D027,Tata Motors Civil Lines,2026-03-13,Kunal Trivedi,26,3/4,Nexon,EV XZ+,true,,323,2026-03-13T06:56:14.458-04:00
+324,MATSFK77763IN,Dinesh Pillai,+919738881126,D005,Tata Motors Connaught Place,2026-01-20,Nikhil Desai,12,Full,Safari,XZ+,true,Delivery process was smooth and professional,324,2026-03-13T06:56:14.471-04:00
+325,MATSFN88349IN,Sneha Pillai,+918910222251,D010,Tata Motors OMR,2026-03-13,Kunal Trivedi,45,Full,Nexon,XZ,true,,325,2026-03-13T06:56:14.690-04:00
+326,MATSFM36965IN,Komal Patel,+919479640748,D029,Tata Motors Aliganj,2026-01-18,Kunal Trivedi,24,Full,Harrier,XZ,true,,326,2026-03-13T06:56:14.707-04:00
+327,MATSFM69606IN,Anita Banerjee,+918735476048,D009,Tata Motors Anna Nagar,2026-03-13,Manish Sethi,42,3/4,Nexon,EV Max XZ+ Lux,true,Minor scratch noticed on door - dealer promised touch-up,327,2026-03-13T06:56:14.921-04:00
+328,MATPNK15234IN,Tanya Verma,+918418593664,D028,Tata Motors Vaishali Nagar,2026-01-15,Pankaj Dubey,38,3/4,Tiago,EV XZ+,false,,328,2026-03-13T06:56:14.942-04:00
+329,MATHRL60236IN,Priya Desai,+917594178323,D012,Tata Motors Whitefield,2026-03-13,Sameer Khanna,29,Full,Punch,Pure,false,Documentation was delayed by 30 minutes,329,2026-03-13T06:56:15.153-04:00
+330,MATTGN60685IN,Rekha Pillai,+919666460276,D029,Tata Motors Aliganj,2026-01-17,Nikhil Desai,18,Full,Safari,XZ+,true,,330,2026-03-13T06:56:15.176-04:00
+331,MATNXN76526IN,Sanjay Desai,+918858886838,D006,Tata Motors Dwarka,2026-03-13,Sameer Khanna,12,Full,Punch,Creative,true,All accessories installed as promised,331,2026-03-13T06:56:15.384-04:00
+332,MATPNK71566IN,Manoj Menon,+919287042052,D019,Tata Motors Jubilee Hills,2026-01-17,Abhishek Pandey,10,Full,Safari,XE,true,,332,2026-03-13T06:56:15.410-04:00
+333,MATSFN44060IN,Rajesh Desai,+919971925555,D026,Tata Motors SG Highway,2026-03-13,Pankaj Dubey,11,Full,Nexon,XZ+,true,AC not cooling well - dealer scheduled follow-up,333,2026-03-13T06:56:15.615-04:00
+334,MATPNL48424IN,Sneha Gupta,+919288657098,D002,Tata Motors Thane,2026-01-18,Varun Mishra,21,3/4,Punch,Adventure,true,,334,2026-03-13T06:56:15.644-04:00
+335,MATTGK18831IN,Vikram Sharma,+918784465482,D010,Tata Motors OMR,2026-03-13,Sameer Khanna,41,Full,Safari,XE,true,,335,2026-03-13T06:56:15.847-04:00
+336,MATTGL61616IN,Ajay Tiwari,+917743241480,D032,Tata Motors Dharampeth,2026-01-18,Tarun Kaushik,15,Full,Nexon,XZ,true,Delivery process was smooth and professional,336,2026-03-13T06:56:15.878-04:00
+337,MATNXK27813IN,Kavita Singh,+919862841274,D007,Tata Motors Noida,2026-03-12,Nikhil Desai,34,Full,Nexon,XZ,true,,337,2026-03-13T06:56:16.079-04:00
+338,MATSFL63435IN,Rekha Malhotra,+918040080884,D011,Tata Motors Adyar,2026-01-17,Sameer Khanna,42,Full,Punch,Adventure,true,,338,2026-03-13T06:56:16.111-04:00
+339,MATSFL42046IN,Priya Joshi,+917901653256,D025,Tata Motors Ashram Road,2026-03-13,Kunal Trivedi,10,Full,Safari,XM,true,Excellent handover experience,339,2026-03-13T06:56:16.312-04:00
+340,MATNXN70960IN,Nitin Reddy,+919028005804,D038,Tata Motors Kadavanthara,2026-01-17,Arjun Nambiar,23,Full,Harrier,XZ,true,AC not cooling well - dealer scheduled follow-up,340,2026-03-13T06:56:16.345-04:00
+341,MATSFN68767IN,Lakshmi Singh,+919476295818,D033,Tata Motors MG Road,2026-03-13,Manish Sethi,43,Full,Harrier,XZ+ Dark,true,Noticed slight vibration during test drive - dealer to check,341,2026-03-13T06:56:16.542-04:00
+342,MATPNN96588IN,Pooja Gupta,+918071416462,D007,Tata Motors Noida,2026-01-16,Varun Mishra,26,3/4,Nexon,XZ,true,Very happy with the vehicle condition,342,2026-03-13T06:56:16.579-04:00
+343,MATHRL18680IN,Suresh Sharma,+918267199052,D004,Tata Motors Navi Mumbai,2026-03-13,Abhishek Pandey,39,Full,Nexon,XZ+ Lux,true,Delivery process was smooth and professional,343,2026-03-13T06:56:16.773-04:00
+344,MATSFM30394IN,Sneha Kumar,+918377515312,D024,Tata Motors Howrah,2026-01-19,Arjun Nambiar,7,Full,Safari,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,344,2026-03-13T06:56:16.813-04:00
+345,MATHRL70862IN,Sneha Bhat,+917153123169,D007,Tata Motors Noida,2026-03-11,Arjun Nambiar,6,Full,Punch,Pure,true,All accessories installed as promised,345,2026-03-13T06:56:17.004-04:00
+346,MATPNL66645IN,Vivek Mishra,+919288461325,D010,Tata Motors OMR,2026-01-13,Varun Mishra,11,3/4,Nexon,XZ,true,AC not cooling well - dealer scheduled follow-up,346,2026-03-13T06:56:17.047-04:00
+347,MATSFM88378IN,Deepa Mishra,+918826068541,D022,Tata Motors Salt Lake,2026-03-11,Manish Sethi,15,Full,Safari,XM,true,Requested additional floor mats,347,2026-03-13T06:56:17.234-04:00
+348,MATSFK21471IN,Sunita Mukherjee,+919358064080,D024,Tata Motors Howrah,2026-01-16,Tarun Kaushik,25,Full,Harrier,XZ+ Dark,true,AC not cooling well - dealer scheduled follow-up,348,2026-03-13T06:56:17.282-04:00
+349,MATSFK94340IN,Karthik Menon,+918727652424,D027,Tata Motors Civil Lines,2026-03-13,Varun Mishra,17,3/4,Nexon,XZ,true,AC not cooling well - dealer scheduled follow-up,349,2026-03-13T06:56:17.466-04:00
+350,MATSFL37596IN,Kavita Malhotra,+918311798039,D003,Tata Motors Powai,2026-01-15,Pankaj Dubey,24,Full,Tiago,XZ,true,,350,2026-03-13T06:56:17.520-04:00
+351,MATTGN37495IN,Neha Desai,+918389308744,D033,Tata Motors MG Road,2026-03-13,Kunal Trivedi,25,3/4,Harrier,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,351,2026-03-13T06:56:17.697-04:00
+352,MATSFK34112IN,Smita Singh,+917607132588,D007,Tata Motors Noida,2026-01-16,Rohit Bhardwaj,44,3/4,Tiago,XE,true,Delivery process was smooth and professional,352,2026-03-13T06:56:17.756-04:00
+353,MATSFM90593IN,Meera Menon,+919295604872,D006,Tata Motors Dwarka,2026-03-13,Varun Mishra,30,1/2,Safari,XE,true,,353,2026-03-13T06:56:17.936-04:00
+354,MATPNM81712IN,Sneha Rao,+918317635945,D029,Tata Motors Aliganj,2026-01-13,Varun Mishra,44,3/4,Harrier,XZ+ Dark,true,,354,2026-03-13T06:56:17.989-04:00
+355,MATTGM61748IN,Priya Gupta,+917442871095,D040,Tata Motors Vizag CBD,2026-03-13,Abhishek Pandey,14,Full,Safari,XM,true,Noticed slight vibration during test drive - dealer to check,355,2026-03-13T06:56:18.169-04:00
+356,MATTGL75095IN,Suresh Dutta,+919984034300,D035,Tata Motors Rajpur Road,2026-01-15,Rohit Bhardwaj,29,Full,Harrier,XZ+ Dark,true,,356,2026-03-13T06:56:18.224-04:00
+357,MATSFM96174IN,Sanjay Singh,+919598970187,D022,Tata Motors Salt Lake,2026-03-13,Nikhil Desai,42,Full,Safari,XM,true,,357,2026-03-13T06:56:18.400-04:00
+358,MATHRM69151IN,Bhavna Sinha,+917568717010,D014,Tata Motors Electronic City,2026-01-18,Nikhil Desai,21,Full,Punch,Pure,true,Requested additional floor mats,358,2026-03-13T06:56:18.461-04:00
+359,MATNXL31271IN,Lakshmi Banerjee,+917691261132,D010,Tata Motors OMR,2026-03-13,Rohit Bhardwaj,26,Full,Nexon,XM,true,,359,2026-03-13T06:56:18.631-04:00
+360,MATTGN39720IN,Deepa Rao,+919162334809,D001,Tata Motors Andheri,2026-01-15,Nikhil Desai,14,Full,Punch,Pure,true,Noticed slight vibration during test drive - dealer to check,360,2026-03-13T06:56:18.704-04:00
+361,MATTGK83585IN,Rajesh Patel,+918290314991,D026,Tata Motors SG Highway,2026-03-13,Manish Sethi,10,Full,Nexon,XE,true,Documentation was delayed by 30 minutes,361,2026-03-13T06:56:18.863-04:00
+362,MATHRN54556IN,Nisha Nair,+919793375824,D006,Tata Motors Dwarka,2026-01-13,Rohit Bhardwaj,44,Full,Tiago,XZ+,true,,362,2026-03-13T06:56:18.946-04:00
+363,MATSFL26217IN,Amit Rao,+917639281392,D021,Tata Motors Hitech City,2026-03-13,Sameer Khanna,36,Full,Punch,EV Adventure,false,,363,2026-03-13T06:56:19.098-04:00
+364,MATNXM15339IN,Bhavna Gupta,+919711959147,D037,Tata Motors Sector 17,2026-01-11,Tarun Kaushik,36,Full,Nexon,XM,true,,364,2026-03-13T06:56:19.188-04:00
+365,MATHRM10692IN,Karthik Mukherjee,+918614372087,D028,Tata Motors Vaishali Nagar,2026-03-09,Tarun Kaushik,13,Full,Punch,EV Adventure,true,All accessories installed as promised,365,2026-03-13T06:56:19.329-04:00
+366,MATNXM65079IN,Rajesh Sharma,+918482891932,D038,Tata Motors Kadavanthara,2026-01-16,Abhishek Pandey,19,Full,Harrier,XZ+,true,Excellent handover experience,366,2026-03-13T06:56:19.423-04:00
+367,MATNXL61736IN,Priya Chatterjee,+917749314081,D010,Tata Motors OMR,2026-03-13,Rohit Bhardwaj,39,3/4,Nexon,XZ,true,Requested additional floor mats,367,2026-03-13T06:56:19.560-04:00
+368,MATPNL93237IN,Ashok Desai,+917556225112,D017,Tata Motors Hinjawadi,2026-01-15,Nikhil Desai,40,Full,Safari,XM,true,Very happy with the vehicle condition,368,2026-03-13T06:56:19.658-04:00
+369,MATTGN36717IN,Sanjay Das,+917307282861,D026,Tata Motors SG Highway,2026-03-13,Pankaj Dubey,16,Full,Safari,XZ+,true,Delivery process was smooth and professional,369,2026-03-13T06:56:19.792-04:00
+370,MATPNL67426IN,Deepa Sharma,+917200259130,D001,Tata Motors Andheri,2026-01-11,Manish Sethi,22,Full,Harrier,XZ+,true,AC not cooling well - dealer scheduled follow-up,370,2026-03-13T06:56:19.893-04:00
+371,MATNXM47068IN,Arun Chatterjee,+917815569694,D030,Tata Motors Gomti Nagar,2026-03-09,Arjun Nambiar,36,Full,Punch,Adventure,true,Minor scratch noticed on door - dealer promised touch-up,371,2026-03-13T06:56:20.023-04:00
+372,MATPNK54734IN,Ravi Saxena,+917821947628,D014,Tata Motors Electronic City,2026-01-11,Kunal Trivedi,34,3/4,Punch,Creative,true,Delivery process was smooth and professional,372,2026-03-13T06:56:20.126-04:00
+373,MATTGM42097IN,Deepa Das,+917414122669,D019,Tata Motors Jubilee Hills,2026-03-13,Pankaj Dubey,18,Full,Safari,Adventure,true,All accessories installed as promised,373,2026-03-13T06:56:20.255-04:00
+374,MATPNL38931IN,Sanjay Das,+917800007772,D010,Tata Motors OMR,2026-01-10,Sameer Khanna,26,Full,Safari,Adventure,true,Excellent handover experience,374,2026-03-13T06:56:20.361-04:00
+375,MATPNM63976IN,Suresh Iyer,+917821721209,D001,Tata Motors Andheri,2026-03-10,Pankaj Dubey,37,Full,Safari,XM,true,Excellent handover experience,375,2026-03-13T06:56:20.489-04:00
+376,MATHRL33513IN,Deepa Dutta,+919713355102,D013,Tata Motors Koramangala,2026-01-10,Kunal Trivedi,30,Full,Harrier,XM,true,Minor scratch noticed on door - dealer promised touch-up,376,2026-03-13T06:56:20.595-04:00
+377,MATNXK59091IN,Ravi Mishra,+917679039457,D015,Tata Motors Jayanagar,2026-03-07,Tarun Kaushik,27,Full,Safari,XZ,true,,377,2026-03-13T06:56:20.721-04:00
+378,MATSFL30630IN,Priya Nair,+917781378549,D030,Tata Motors Gomti Nagar,2026-01-14,Tarun Kaushik,5,Full,Safari,XE,true,Minor scratch noticed on door - dealer promised touch-up,378,2026-03-13T06:56:20.829-04:00
+379,MATNXL33565IN,Karthik Menon,+918027860052,D014,Tata Motors Electronic City,2026-03-09,Nikhil Desai,11,Full,Nexon,XZ+,true,,379,2026-03-13T06:56:20.953-04:00
+380,MATHRK93394IN,Ravi Mishra,+918714290609,D005,Tata Motors Connaught Place,2026-01-13,Abhishek Pandey,26,Full,Safari,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,380,2026-03-13T06:56:21.066-04:00
+381,MATSFK93498IN,Swati Verma,+919500850179,D036,Tata Motors Panchkula,2026-03-08,Varun Mishra,31,Full,Tiago,XZ,true,All accessories installed as promised,381,2026-03-13T06:56:21.184-04:00
+382,MATNXN29391IN,Pooja Sinha,+919158978939,D008,Tata Motors Gurgaon,2026-01-16,Abhishek Pandey,37,Full,Nexon,XZ+ Lux,true,AC not cooling well - dealer scheduled follow-up,382,2026-03-13T06:56:21.300-04:00
+383,MATNXM77618IN,Pooja Verma,+919327141493,D040,Tata Motors Vizag CBD,2026-03-08,Rohit Bhardwaj,27,Full,Punch,Creative,true,AC not cooling well - dealer scheduled follow-up,383,2026-03-13T06:56:21.415-04:00
+384,MATTGN91922IN,Swati Patel,+917402732017,D034,Tata Motors Palasia,2026-01-12,Rohit Bhardwaj,26,Full,Punch,Pure,true,,384,2026-03-13T06:56:21.535-04:00
+385,MATSFN81758IN,Lakshmi Menon,+918845091420,D017,Tata Motors Hinjawadi,2026-03-09,Tarun Kaushik,44,Full,Safari,XE,true,Delivery process was smooth and professional,385,2026-03-13T06:56:21.646-04:00
+386,MATPNK30787IN,Harsh Chatterjee,+919113712186,D024,Tata Motors Howrah,2026-01-10,Kunal Trivedi,37,3/4,Nexon,XZ+,true,Requested additional floor mats,386,2026-03-13T06:56:21.768-04:00
+387,MATNXL62858IN,Rahul Pillai,+918897580521,D038,Tata Motors Kadavanthara,2026-03-09,Tarun Kaushik,41,Full,Nexon,EV XZ+,true,Noticed slight vibration during test drive - dealer to check,387,2026-03-13T06:56:21.879-04:00
+388,MATHRL58283IN,Anjali Chopra,+919634285635,D011,Tata Motors Adyar,2026-01-11,Abhishek Pandey,20,Full,Punch,Adventure,true,,388,2026-03-13T06:56:22.005-04:00
+389,MATHRL56538IN,Vikram Nair,+917472608471,D017,Tata Motors Hinjawadi,2026-03-11,Sameer Khanna,27,Full,Harrier,XE,true,Delivery process was smooth and professional,389,2026-03-13T06:56:22.122-04:00
+390,MATHRL21982IN,Karthik Yadav,+917592929176,D001,Tata Motors Andheri,2026-01-12,Abhishek Pandey,6,3/4,Tiago,XZ,false,AC not cooling well - dealer scheduled follow-up,390,2026-03-13T06:56:22.241-04:00
+391,MATTGK82423IN,Karthik Reddy,+918262944710,D035,Tata Motors Rajpur Road,2026-03-09,Nikhil Desai,26,Full,Safari,XM,true,Very happy with the vehicle condition,391,2026-03-13T06:56:22.353-04:00
+392,MATNXK64461IN,Arun Chatterjee,+918641495985,D023,Tata Motors Park Street,2026-01-15,Sameer Khanna,22,Full,Safari,XZ,true,Excellent handover experience,392,2026-03-13T06:56:22.476-04:00
+393,MATTGL63382IN,Swati Joshi,+919994261236,D038,Tata Motors Kadavanthara,2026-03-08,Arjun Nambiar,6,Full,Harrier,XM,true,Documentation was delayed by 30 minutes,393,2026-03-13T06:56:22.586-04:00
+394,MATNXL54235IN,Vivek Yadav,+917342057624,D030,Tata Motors Gomti Nagar,2026-01-14,Abhishek Pandey,44,Full,Safari,XE,true,Very happy with the vehicle condition,394,2026-03-13T06:56:22.709-04:00
+395,MATPNN99772IN,Sneha Mukherjee,+919517892390,D005,Tata Motors Connaught Place,2026-03-10,Rohit Bhardwaj,7,3/4,Harrier,XM,true,,395,2026-03-13T06:56:22.817-04:00
+396,MATHRM44574IN,Anita Kapoor,+918101018932,D009,Tata Motors Anna Nagar,2026-01-10,Kunal Trivedi,42,Full,Safari,XM,true,AC not cooling well - dealer scheduled follow-up,396,2026-03-13T06:56:22.943-04:00
+397,MATTGK16999IN,Karthik Verma,+917128962731,D017,Tata Motors Hinjawadi,2026-03-04,Kunal Trivedi,8,Full,Harrier,XM,true,,397,2026-03-13T06:56:23.055-04:00
+398,MATPNN85066IN,Tanya Nair,+919446146295,D016,Tata Motors Kothrud,2026-01-09,Tarun Kaushik,24,Full,Safari,XM,true,,398,2026-03-13T06:56:23.177-04:00
+399,MATTGM29258IN,Priya Banerjee,+917833388595,D027,Tata Motors Civil Lines,2026-03-10,Nikhil Desai,37,Full,Tiago,XZ+,true,,399,2026-03-13T06:56:23.287-04:00
+400,MATTGN17179IN,Rekha Saxena,+919419603203,D013,Tata Motors Koramangala,2026-01-10,Sameer Khanna,28,Full,Tiago,XZ+,true,All accessories installed as promised,400,2026-03-13T06:56:23.412-04:00
+401,MATHRK28156IN,Priya Chatterjee,+919405748839,D040,Tata Motors Vizag CBD,2026-03-10,Kunal Trivedi,18,Full,Harrier,XE,true,,401,2026-03-13T06:56:23.523-04:00
+402,MATSFN82170IN,Smita Pillai,+917399327750,D021,Tata Motors Hitech City,2026-01-09,Rohit Bhardwaj,35,Full,Harrier,XE,true,Documentation was delayed by 30 minutes,402,2026-03-13T06:56:23.648-04:00
+403,MATSFN45002IN,Kavita Joshi,+917809811887,D001,Tata Motors Andheri,2026-03-08,Varun Mishra,28,Full,Nexon,XE,true,Requested additional floor mats,403,2026-03-13T06:56:23.754-04:00
+404,MATPNK36484IN,Manoj Reddy,+919823975269,D002,Tata Motors Thane,2026-01-10,Rohit Bhardwaj,36,Full,Harrier,XZ,true,All accessories installed as promised,404,2026-03-13T06:56:23.882-04:00
+405,MATPNL92179IN,Sneha Pillai,+918926102574,D035,Tata Motors Rajpur Road,2026-03-07,Nikhil Desai,29,Full,Nexon,EV Max XZ+ Lux,true,,405,2026-03-13T06:56:23.988-04:00
+406,MATPNL16251IN,Bhavna Verma,+919692040362,D037,Tata Motors Sector 17,2026-01-14,Kunal Trivedi,31,3/4,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,406,2026-03-13T06:56:24.118-04:00
+407,MATNXK81393IN,Rahul Iyer,+919134130908,D040,Tata Motors Vizag CBD,2026-03-09,Pankaj Dubey,19,Full,Harrier,XZ+ Dark,true,Delivery process was smooth and professional,407,2026-03-13T06:56:24.219-04:00
+408,MATNXN38606IN,Deepa Banerjee,+917716396313,D019,Tata Motors Jubilee Hills,2026-01-13,Pankaj Dubey,39,Full,Nexon,XZ,true,,408,2026-03-13T06:56:24.352-04:00
+409,MATNXK71656IN,Rajesh Chatterjee,+918351353524,D002,Tata Motors Thane,2026-03-06,Arjun Nambiar,19,3/4,Harrier,XE,true,Excellent handover experience,409,2026-03-13T06:56:24.449-04:00
+410,MATPNM85041IN,Rahul Chopra,+919304341595,D019,Tata Motors Jubilee Hills,2026-01-11,Sameer Khanna,12,Full,Tiago,XM,true,Delivery process was smooth and professional,410,2026-03-13T06:56:24.589-04:00
+411,MATNXN87150IN,Swati Joshi,+917107908812,D021,Tata Motors Hitech City,2026-03-07,Abhishek Pandey,32,3/4,Harrier,XM,true,Delivery process was smooth and professional,411,2026-03-13T06:56:24.680-04:00
+412,MATHRM39348IN,Amit Rao,+919190232492,D038,Tata Motors Kadavanthara,2026-01-08,Kunal Trivedi,26,Full,Punch,EV Adventure,true,Excellent handover experience,412,2026-03-13T06:56:24.823-04:00
+413,MATTGK69863IN,Sneha Das,+918061197878,D014,Tata Motors Electronic City,2026-03-08,Manish Sethi,24,Full,Safari,Adventure,true,Noticed slight vibration during test drive - dealer to check,413,2026-03-13T06:56:24.914-04:00
+414,MATHRM66773IN,Anjali Desai,+918758807208,D037,Tata Motors Sector 17,2026-01-13,Manish Sethi,37,Full,Safari,XM,true,Minor scratch noticed on door - dealer promised touch-up,414,2026-03-13T06:56:25.115-04:00
+415,MATNXL33467IN,Swati Reddy,+919133678338,D017,Tata Motors Hinjawadi,2026-03-07,Nikhil Desai,16,3/4,Safari,XE,true,,415,2026-03-13T06:56:25.148-04:00
+416,MATTGN76296IN,Tanya Joshi,+919059995148,D034,Tata Motors Palasia,2026-01-09,Tarun Kaushik,22,Full,Safari,XE,true,Noticed slight vibration during test drive - dealer to check,416,2026-03-13T06:56:25.350-04:00
+417,MATPNM91204IN,Kavita Iyer,+917153968004,D032,Tata Motors Dharampeth,2026-03-09,Kunal Trivedi,8,Full,Nexon,XE,false,Delivery process was smooth and professional,417,2026-03-13T06:56:25.382-04:00
+418,MATSFL93663IN,Deepa Kumar,+917992356542,D005,Tata Motors Connaught Place,2026-01-09,Pankaj Dubey,45,Full,Tiago,EV XZ+,true,Delivery process was smooth and professional,418,2026-03-13T06:56:25.585-04:00
+419,MATNXM99198IN,Meera Singh,+917390959945,D005,Tata Motors Connaught Place,2026-03-06,Abhishek Pandey,22,Full,Tiago,XM,true,Delivery process was smooth and professional,419,2026-03-13T06:56:25.614-04:00
+420,MATSFK39301IN,Divya Mukherjee,+919699422320,D002,Tata Motors Thane,2026-01-09,Nikhil Desai,37,Full,Safari,XZ+,true,All accessories installed as promised,420,2026-03-13T06:56:25.829-04:00
+421,MATNXN24836IN,Sneha Nair,+917582337028,D018,Tata Motors Baner,2026-03-02,Kunal Trivedi,28,Full,Safari,XZ+,true,,421,2026-03-13T06:56:25.845-04:00
+422,MATHRL57986IN,Rekha Iyer,+917373600267,D023,Tata Motors Park Street,2026-01-12,Varun Mishra,45,Full,Punch,EV Adventure,true,Excellent handover experience,422,2026-03-13T06:56:26.064-04:00
+423,MATNXL56381IN,Ravi Iyer,+918273255733,D009,Tata Motors Anna Nagar,2026-03-08,Sameer Khanna,12,1/2,Tiago,XE,true,,423,2026-03-13T06:56:26.078-04:00
+424,MATHRN83060IN,Anjali Mishra,+918388264586,D024,Tata Motors Howrah,2026-01-08,Varun Mishra,12,Full,Tiago,XZ+,true,Requested additional floor mats,424,2026-03-13T06:56:26.299-04:00
+425,MATTGN87112IN,Rahul Nair,+918157190959,D020,Tata Motors Gachibowli,2026-03-04,Sameer Khanna,33,Full,Tiago,EV XZ+,true,Requested additional floor mats,425,2026-03-13T06:56:26.309-04:00
+426,MATHRL94848IN,Rajesh Rao,+919076507654,D037,Tata Motors Sector 17,2026-03-07,Rohit Bhardwaj,16,Full,Tiago,XE,true,,426,2026-03-13T06:56:26.581-04:00
+427,MATSFN47272IN,Divya Joshi,+918151999655,D036,Tata Motors Panchkula,2026-01-08,Abhishek Pandey,31,Full,Harrier,XE,true,Delivery process was smooth and professional,427,2026-03-13T06:56:26.582-04:00
+428,MATHRL77543IN,Sneha Das,+918699978312,D033,Tata Motors MG Road,2026-03-08,Tarun Kaushik,13,Full,Tiago,XE,true,,428,2026-03-13T06:56:26.856-04:00
+429,MATPNL21776IN,Anjali Menon,+917479285527,D005,Tata Motors Connaught Place,2026-01-12,Abhishek Pandey,30,Full,Safari,XE,true,Very happy with the vehicle condition,429,2026-03-13T06:56:26.857-04:00
+430,MATSFM57603IN,Arun Singh,+919549993595,D012,Tata Motors Whitefield,2026-03-06,Nikhil Desai,34,3/4,Tiago,XZ,true,All accessories installed as promised,430,2026-03-13T06:56:27.163-04:00
+431,MATNXN33809IN,Rajesh Dutta,+917213976894,D012,Tata Motors Whitefield,2026-01-11,Abhishek Pandey,18,Full,Safari,XE,true,,431,2026-03-13T06:56:27.163-04:00
+432,MATHRK32438IN,Deepa Rao,+917110892522,D011,Tata Motors Adyar,2026-03-07,Varun Mishra,12,Full,Nexon,XE,true,Delivery process was smooth and professional,432,2026-03-13T06:56:27.470-04:00
+433,MATHRM82868IN,Anita Verma,+917823221769,D004,Tata Motors Navi Mumbai,2026-01-06,Sameer Khanna,10,Full,Punch,Pure,true,Noticed slight vibration during test drive - dealer to check,433,2026-03-13T06:56:27.470-04:00
+434,MATHRN89116IN,Vikram Desai,+919672764789,D011,Tata Motors Adyar,2026-03-02,Varun Mishra,13,Full,Harrier,XZ,true,Documentation was delayed by 30 minutes,434,2026-03-13T06:56:27.778-04:00
+435,MATSFN74087IN,Deepa Nair,+918205948901,D029,Tata Motors Aliganj,2026-01-11,Nikhil Desai,13,Full,Nexon,XM,true,AC not cooling well - dealer scheduled follow-up,435,2026-03-13T06:56:27.778-04:00
+436,MATSFN40970IN,Arun Verma,+919591823448,D026,Tata Motors SG Highway,2026-03-02,Rohit Bhardwaj,38,Full,Punch,Creative,true,,436,2026-03-13T06:56:28.025-04:00
+437,MATNXL49687IN,Lakshmi Kapoor,+919846783817,D003,Tata Motors Powai,2026-01-07,Abhishek Pandey,15,Full,Tiago,XZ,true,,437,2026-03-13T06:56:28.034-04:00
+438,MATNXN70338IN,Swati Singh,+917897871908,D016,Tata Motors Kothrud,2026-03-01,Varun Mishra,7,Full,Nexon,XM,true,Requested additional floor mats,438,2026-03-13T06:56:28.256-04:00
+439,MATHRK38061IN,Bhavna Kapoor,+918091092511,D020,Tata Motors Gachibowli,2026-01-10,Rohit Bhardwaj,8,1/2,Nexon,EV XZ+,true,All accessories installed as promised,439,2026-03-13T06:56:28.268-04:00
+440,MATHRM88161IN,Ravi Banerjee,+919250094264,D036,Tata Motors Panchkula,2026-03-01,Kunal Trivedi,42,3/4,Safari,XM,true,Documentation was delayed by 30 minutes,440,2026-03-13T06:56:28.488-04:00
+441,MATPNL22736IN,Meera Sharma,+917876092918,D006,Tata Motors Dwarka,2026-01-06,Arjun Nambiar,24,Full,Punch,Pure,true,Delivery process was smooth and professional,441,2026-03-13T06:56:28.501-04:00
+442,MATPNN83076IN,Amit Chatterjee,+917711044605,D007,Tata Motors Noida,2026-02-28,Varun Mishra,24,Full,Tiago,XE,true,,442,2026-03-13T06:56:28.802-04:00
+443,MATNXK47415IN,Manoj Mishra,+918039428562,D001,Tata Motors Andheri,2026-01-12,Pankaj Dubey,38,Full,Punch,Creative,false,Noticed slight vibration during test drive - dealer to check,443,2026-03-13T06:56:28.803-04:00
+444,MATSFL65727IN,Ashok Das,+918121908551,D030,Tata Motors Gomti Nagar,2026-01-06,Tarun Kaushik,31,3/4,Tiago,XE,true,Documentation was delayed by 30 minutes,444,2026-03-13T06:56:29.043-04:00
+445,MATTGK77744IN,Ravi Joshi,+918784801532,D011,Tata Motors Adyar,2026-02-27,Manish Sethi,22,Full,Nexon,XM,true,AC not cooling well - dealer scheduled follow-up,445,2026-03-13T06:56:29.043-04:00
+446,MATPNN36148IN,Priya Singh,+918758151833,D011,Tata Motors Adyar,2026-02-27,Arjun Nambiar,34,Full,Punch,Adventure,true,,446,2026-03-13T06:56:29.276-04:00
+447,MATTGN30523IN,Nisha Patel,+919641637914,D026,Tata Motors SG Highway,2026-01-07,Rohit Bhardwaj,36,3/4,Nexon,EV XZ+,true,Requested additional floor mats,447,2026-03-13T06:56:29.283-04:00
+448,MATNXK18888IN,Deepa Singh,+919271810397,D013,Tata Motors Koramangala,2026-02-27,Manish Sethi,44,Full,Harrier,XZ+ Dark,false,Excellent handover experience,448,2026-03-13T06:56:29.507-04:00
+449,MATHRL51506IN,Karthik Desai,+917584257382,D002,Tata Motors Thane,2026-01-11,Sameer Khanna,45,Full,Harrier,XZ,true,AC not cooling well - dealer scheduled follow-up,449,2026-03-13T06:56:29.520-04:00
+450,MATPNK67542IN,Deepa Rao,+917935463464,D016,Tata Motors Kothrud,2026-03-01,Pankaj Dubey,32,Full,Nexon,XM,true,All accessories installed as promised,450,2026-03-13T06:56:29.739-04:00
+451,MATHRM77552IN,Lakshmi Mukherjee,+919462672337,D027,Tata Motors Civil Lines,2026-01-12,Varun Mishra,11,Full,Punch,Adventure,true,All accessories installed as promised,451,2026-03-13T06:56:29.753-04:00
+452,MATPNK30756IN,Neha Kumar,+918278473285,D033,Tata Motors MG Road,2026-02-28,Arjun Nambiar,6,Full,Harrier,XZ,true,All accessories installed as promised,452,2026-03-13T06:56:29.973-04:00
+453,MATNXM80451IN,Ashok Rao,+918908887394,D039,Tata Motors Edappally,2026-01-11,Nikhil Desai,37,Full,Tiago,XM,true,,453,2026-03-13T06:56:29.986-04:00
+454,MATHRM67718IN,Rahul Verma,+919136672725,D039,Tata Motors Edappally,2026-02-26,Sameer Khanna,37,Full,Tiago,XE,true,Documentation was delayed by 30 minutes,454,2026-03-13T06:56:30.204-04:00
+455,MATHRM75494IN,Nitin Malhotra,+919787467978,D032,Tata Motors Dharampeth,2026-01-07,Arjun Nambiar,40,Full,Tiago,XZ+,true,Noticed slight vibration during test drive - dealer to check,455,2026-03-13T06:56:30.221-04:00
+456,MATHRK43901IN,Meera Nair,+918620972242,D015,Tata Motors Jayanagar,2026-03-02,Abhishek Pandey,24,Full,Tiago,XM,true,,456,2026-03-13T06:56:30.436-04:00
+457,MATPNK48384IN,Divya Pandey,+918374499467,D027,Tata Motors Civil Lines,2026-01-08,Kunal Trivedi,13,Full,Harrier,XE,true,,457,2026-03-13T06:56:30.456-04:00
+458,MATSFL81658IN,Arun Pillai,+918680881955,D015,Tata Motors Jayanagar,2026-02-25,Abhishek Pandey,36,Full,Safari,XE,false,Excellent handover experience,458,2026-03-13T06:56:30.667-04:00
+459,MATTGK65694IN,Ravi Gupta,+919608505104,D020,Tata Motors Gachibowli,2026-01-08,Pankaj Dubey,30,Full,Harrier,XZ+ Dark,true,Minor scratch noticed on door - dealer promised touch-up,459,2026-03-13T06:56:30.689-04:00
+460,MATPNM10055IN,Anita Verma,+917354313482,D039,Tata Motors Edappally,2026-02-27,Kunal Trivedi,7,1/2,Safari,XM,true,AC not cooling well - dealer scheduled follow-up,460,2026-03-13T06:56:30.909-04:00
+461,MATHRK45861IN,Nisha Sharma,+918914743801,D008,Tata Motors Gurgaon,2026-01-10,Kunal Trivedi,44,Full,Safari,XE,true,Noticed slight vibration during test drive - dealer to check,461,2026-03-13T06:56:30.923-04:00
+462,MATPNL82240IN,Ravi Das,+917041762781,D008,Tata Motors Gurgaon,2026-02-27,Rohit Bhardwaj,20,Full,Harrier,XZ+ Dark,true,Excellent handover experience,462,2026-03-13T06:56:31.142-04:00
+463,MATPNN82030IN,Divya Kumar,+919861752787,D003,Tata Motors Powai,2026-01-11,Abhishek Pandey,41,3/4,Punch,Creative,true,,463,2026-03-13T06:56:31.159-04:00
+464,MATNXK24862IN,Sanjay Rao,+919221376180,D005,Tata Motors Connaught Place,2026-03-03,Rohit Bhardwaj,42,Full,Harrier,XM,true,,464,2026-03-13T06:56:31.374-04:00
+465,MATSFK58809IN,Sachin Pillai,+918590535010,D014,Tata Motors Electronic City,2026-01-08,Varun Mishra,14,Full,Harrier,XZ+ Dark,true,Minor scratch noticed on door - dealer promised touch-up,465,2026-03-13T06:56:31.393-04:00
+466,MATNXM67121IN,Kavita Menon,+919573687578,D026,Tata Motors SG Highway,2026-02-25,Arjun Nambiar,8,3/4,Harrier,XE,true,Very happy with the vehicle condition,466,2026-03-13T06:56:31.606-04:00
+467,MATNXL27151IN,Lakshmi Mukherjee,+917709577395,D019,Tata Motors Jubilee Hills,2026-01-04,Pankaj Dubey,18,Full,Tiago,EV XZ+,true,Minor scratch noticed on door - dealer promised touch-up,467,2026-03-13T06:56:31.626-04:00
+468,MATHRL25520IN,Rahul Reddy,+918172933247,D015,Tata Motors Jayanagar,2026-02-27,Kunal Trivedi,19,Full,Harrier,XZ,true,Very happy with the vehicle condition,468,2026-03-13T06:56:31.838-04:00
+469,MATNXM75976IN,Dinesh Nair,+919233440848,D040,Tata Motors Vizag CBD,2026-01-08,Arjun Nambiar,38,Full,Tiago,XE,true,Documentation was delayed by 30 minutes,469,2026-03-13T06:56:31.859-04:00
+470,MATPNM63549IN,Arun Verma,+919603686528,D004,Tata Motors Navi Mumbai,2026-02-26,Nikhil Desai,8,Full,Harrier,XZ+ Dark,true,,470,2026-03-13T06:56:32.069-04:00
+471,MATNXM82627IN,Meera Mishra,+918911008268,D029,Tata Motors Aliganj,2026-01-07,Rohit Bhardwaj,27,Full,Safari,Adventure,true,,471,2026-03-13T06:56:32.093-04:00
+472,MATNXN98581IN,Ravi Banerjee,+919512089154,D010,Tata Motors OMR,2026-03-02,Rohit Bhardwaj,40,Full,Nexon,EV Max XZ+ Lux,true,,472,2026-03-13T06:56:32.301-04:00
+473,MATTGN69080IN,Priya Pillai,+918400776279,D037,Tata Motors Sector 17,2026-01-07,Tarun Kaushik,44,Full,Tiago,XM,true,Very happy with the vehicle condition,473,2026-03-13T06:56:32.328-04:00
+474,MATNXN18817IN,Arun Singh,+917910914406,D005,Tata Motors Connaught Place,2026-03-02,Nikhil Desai,42,Full,Punch,Creative,true,Requested additional floor mats,474,2026-03-13T06:56:32.532-04:00
+475,MATSFK14687IN,Lakshmi Joshi,+918855036665,D010,Tata Motors OMR,2026-01-09,Kunal Trivedi,35,Full,Punch,EV Adventure,true,Requested additional floor mats,475,2026-03-13T06:56:32.575-04:00
+476,MATNXL79695IN,Arun Sharma,+919961421977,D006,Tata Motors Dwarka,2026-02-24,Sameer Khanna,27,Full,Tiago,XZ+,true,AC not cooling well - dealer scheduled follow-up,476,2026-03-13T06:56:32.763-04:00
+477,MATTGN91539IN,Prakash Nair,+917605006383,D001,Tata Motors Andheri,2026-01-10,Sameer Khanna,42,Full,Punch,Creative,true,,477,2026-03-13T06:56:32.808-04:00
+478,MATTGL43113IN,Kavita Desai,+919655548551,D029,Tata Motors Aliganj,2026-03-01,Varun Mishra,36,3/4,Safari,XE,true,,478,2026-03-13T06:56:33.061-04:00
+479,MATTGL85769IN,Nisha Chopra,+918035048361,D018,Tata Motors Baner,2026-01-07,Tarun Kaushik,12,Full,Nexon,EV Max XZ+ Lux,true,Noticed slight vibration during test drive - dealer to check,479,2026-03-13T06:56:33.062-04:00
+480,MATNXL18088IN,Sneha Banerjee,+918340786410,D009,Tata Motors Anna Nagar,2026-02-27,Nikhil Desai,15,Full,Punch,Accomplished,true,Delivery process was smooth and professional,480,2026-03-13T06:56:33.293-04:00
+481,MATSFM87162IN,Anita Patel,+919851816053,D033,Tata Motors MG Road,2026-01-06,Sameer Khanna,12,Full,Tiago,EV XZ+,true,Minor scratch noticed on door - dealer promised touch-up,481,2026-03-13T06:56:33.296-04:00
+482,MATPNN97614IN,Rajesh Bhat,+918568080945,D011,Tata Motors Adyar,2026-02-23,Abhishek Pandey,24,1/2,Tiago,XE,true,,482,2026-03-13T06:56:33.524-04:00
+483,MATPNL81858IN,Rekha Pandey,+917982328534,D017,Tata Motors Hinjawadi,2026-01-06,Tarun Kaushik,44,1/2,Tiago,XZ,true,,483,2026-03-13T06:56:33.544-04:00
+484,MATPNN99407IN,Karthik Iyer,+917298593506,D033,Tata Motors MG Road,2026-02-24,Rohit Bhardwaj,12,Full,Safari,XZ+,true,Delivery process was smooth and professional,484,2026-03-13T06:56:33.756-04:00
+485,MATPNK49678IN,Ravi Chopra,+919304506025,D018,Tata Motors Baner,2026-01-09,Manish Sethi,13,Full,Nexon,XZ+,true,Noticed slight vibration during test drive - dealer to check,485,2026-03-13T06:56:33.781-04:00
+486,MATPNL60475IN,Manoj Mishra,+918329003015,D005,Tata Motors Connaught Place,2026-02-25,Varun Mishra,12,Full,Harrier,XZ+,true,,486,2026-03-13T06:56:33.987-04:00
+487,MATSFK27287IN,Divya Verma,+918093337078,D031,Tata Motors Sadar,2026-01-07,Varun Mishra,19,Full,Safari,XZ+,true,AC not cooling well - dealer scheduled follow-up,487,2026-03-13T06:56:34.016-04:00
+488,MATNXK16524IN,Manoj Rao,+917192832535,D025,Tata Motors Ashram Road,2026-03-01,Varun Mishra,24,Full,Safari,XZ+,true,Requested additional floor mats,488,2026-03-13T06:56:34.218-04:00
+489,MATNXN21660IN,Parveen Menon,+917409012649,D006,Tata Motors Dwarka,2026-01-08,Rohit Bhardwaj,39,Full,Punch,Creative,true,Noticed slight vibration during test drive - dealer to check,489,2026-03-13T06:56:34.249-04:00
+490,MATNXK18639IN,Manoj Bhat,+918019596282,D025,Tata Motors Ashram Road,2026-02-25,Rohit Bhardwaj,41,1/2,Nexon,XZ,true,Very happy with the vehicle condition,490,2026-03-13T06:56:34.451-04:00
+491,MATSFK67748IN,Komal Agarwal,+918348936785,D038,Tata Motors Kadavanthara,2026-01-04,Nikhil Desai,20,3/4,Tiago,EV XZ+,true,Delivery process was smooth and professional,491,2026-03-13T06:56:34.489-04:00
+492,MATPNM27236IN,Pooja Reddy,+919258606200,D002,Tata Motors Thane,2026-02-22,Kunal Trivedi,7,Full,Safari,XZ,true,Delivery process was smooth and professional,492,2026-03-13T06:56:34.684-04:00
+493,MATNXK53553IN,Tanya Sharma,+919895456790,D023,Tata Motors Park Street,2026-01-05,Abhishek Pandey,27,Full,Nexon,XE,true,Noticed slight vibration during test drive - dealer to check,493,2026-03-13T06:56:34.723-04:00
+494,MATPNN17926IN,Neha Gupta,+919895678548,D035,Tata Motors Rajpur Road,2026-02-26,Nikhil Desai,18,Full,Harrier,XZ,false,Very happy with the vehicle condition,494,2026-03-13T06:56:34.916-04:00
+495,MATSFM60151IN,Harsh Singh,+919807281285,D023,Tata Motors Park Street,2026-01-05,Rohit Bhardwaj,30,Full,Punch,Adventure,true,All accessories installed as promised,495,2026-03-13T06:56:34.958-04:00
+496,MATSFK24043IN,Neha Nair,+918280726394,D018,Tata Motors Baner,2026-02-26,Varun Mishra,8,Full,Harrier,XZ+ Dark,true,All accessories installed as promised,496,2026-03-13T06:56:35.150-04:00
+497,MATPNL17075IN,Ravi Sinha,+919749960383,D003,Tata Motors Powai,2026-01-09,Varun Mishra,17,Full,Nexon,EV XZ+,true,AC not cooling well - dealer scheduled follow-up,497,2026-03-13T06:56:35.191-04:00
+498,MATSFL11386IN,Priya Pillai,+919527711204,D025,Tata Motors Ashram Road,2026-02-28,Rohit Bhardwaj,41,Full,Punch,Accomplished,true,Excellent handover experience,498,2026-03-13T06:56:35.381-04:00
+499,MATSFM67417IN,Lakshmi Mishra,+917008078653,D001,Tata Motors Andheri,2026-01-08,Tarun Kaushik,6,Full,Harrier,XE,true,Documentation was delayed by 30 minutes,499,2026-03-13T06:56:35.425-04:00
+500,MATNXK85887IN,Priya Patel,+918417093772,D004,Tata Motors Navi Mumbai,2026-02-22,Abhishek Pandey,9,Full,Tiago,XE,true,Excellent handover experience,500,2026-03-13T06:56:35.611-04:00
+501,MATTGL55365IN,Suresh Iyer,+919116130566,D006,Tata Motors Dwarka,2026-01-06,Abhishek Pandey,36,Full,Tiago,XZ+,true,AC not cooling well - dealer scheduled follow-up,501,2026-03-13T06:56:35.667-04:00
+502,MATPNL45003IN,Priya Patel,+917004935568,D031,Tata Motors Sadar,2026-02-27,Manish Sethi,7,Full,Harrier,XE,true,,502,2026-03-13T06:56:35.843-04:00
+503,MATSFN19552IN,Sanjay Singh,+919387877287,D011,Tata Motors Adyar,2026-01-04,Pankaj Dubey,25,Full,Nexon,XZ,false,All accessories installed as promised,503,2026-03-13T06:56:35.901-04:00
+504,MATSFK22484IN,Pooja Singh,+919749127201,D009,Tata Motors Anna Nagar,2026-02-24,Tarun Kaushik,24,1/2,Tiago,EV XZ+,false,Documentation was delayed by 30 minutes,504,2026-03-13T06:56:36.075-04:00
+505,MATSFM69839IN,Swati Desai,+918217198607,D016,Tata Motors Kothrud,2026-01-08,Pankaj Dubey,30,Full,Tiago,XZ+,true,Very happy with the vehicle condition,505,2026-03-13T06:56:36.136-04:00
+506,MATNXN28542IN,Vikram Patel,+917286167334,D001,Tata Motors Andheri,2026-02-23,Manish Sethi,21,Full,Punch,Adventure,true,Minor scratch noticed on door - dealer promised touch-up,506,2026-03-13T06:56:36.306-04:00
+507,MATNXK78738IN,Gaurav Singh,+917082871331,D020,Tata Motors Gachibowli,2026-01-06,Varun Mishra,34,Full,Nexon,XM,true,Excellent handover experience,507,2026-03-13T06:56:36.372-04:00
+508,MATTGL71662IN,Manoj Nair,+919839842672,D009,Tata Motors Anna Nagar,2026-02-24,Manish Sethi,11,3/4,Nexon,EV XZ+,true,Very happy with the vehicle condition,508,2026-03-13T06:56:36.538-04:00
+509,MATTGM53476IN,Amit Kapoor,+917450370951,D016,Tata Motors Kothrud,2026-01-08,Manish Sethi,7,3/4,Tiago,XM,true,Excellent handover experience,509,2026-03-13T06:56:36.612-04:00
+510,MATNXM21623IN,Kavita Bhat,+918202530352,D031,Tata Motors Sadar,2026-02-23,Manish Sethi,28,Full,Harrier,XM,true,All accessories installed as promised,510,2026-03-13T06:56:36.771-04:00
+511,MATHRL93105IN,Prakash Patel,+919099728795,D009,Tata Motors Anna Nagar,2026-01-04,Kunal Trivedi,32,Full,Nexon,XZ,true,All accessories installed as promised,511,2026-03-13T06:56:36.848-04:00
+512,MATTGM64778IN,Arun Mukherjee,+919300058344,D022,Tata Motors Salt Lake,2026-02-24,Tarun Kaushik,38,Full,Punch,Adventure,true,Documentation was delayed by 30 minutes,512,2026-03-13T06:56:37.002-04:00
+513,MATNXL13003IN,Nitin Agarwal,+917420334663,D024,Tata Motors Howrah,2026-01-03,Rohit Bhardwaj,14,Full,Harrier,XZ+ Dark,true,Documentation was delayed by 30 minutes,513,2026-03-13T06:56:37.082-04:00
+514,MATSFM80937IN,Manoj Nair,+917540942736,D013,Tata Motors Koramangala,2026-02-24,Manish Sethi,41,Full,Safari,XZ+,true,Noticed slight vibration during test drive - dealer to check,514,2026-03-13T06:56:37.234-04:00
+515,MATNXN40653IN,Kavita Agarwal,+919360845802,D001,Tata Motors Andheri,2026-01-07,Abhishek Pandey,32,Full,Harrier,XM,true,Delivery process was smooth and professional,515,2026-03-13T06:56:37.326-04:00
+516,MATPNL69456IN,Deepa Bhat,+918362404954,D009,Tata Motors Anna Nagar,2026-02-23,Rohit Bhardwaj,43,Full,Harrier,XE,true,,516,2026-03-13T06:56:37.465-04:00
+517,MATNXK77461IN,Anjali Desai,+918031448229,D012,Tata Motors Whitefield,2026-01-02,Pankaj Dubey,27,Full,Harrier,XZ+ Dark,true,,517,2026-03-13T06:56:37.568-04:00
+518,MATHRL70415IN,Amit Desai,+918060343554,D026,Tata Motors SG Highway,2026-02-22,Nikhil Desai,32,Full,Tiago,XZ+,true,,518,2026-03-13T06:56:37.697-04:00
+519,MATPNM98491IN,Sneha Mishra,+917550130029,D029,Tata Motors Aliganj,2026-01-03,Nikhil Desai,39,Full,Harrier,XZ+ Dark,true,,519,2026-03-13T06:56:37.804-04:00
+520,MATPNN61514IN,Anita Mishra,+917553085536,D017,Tata Motors Hinjawadi,2026-02-19,Rohit Bhardwaj,6,3/4,Safari,XZ+,true,Minor scratch noticed on door - dealer promised touch-up,520,2026-03-13T06:56:37.927-04:00
+521,MATTGL54786IN,Manoj Saxena,+918483507286,D030,Tata Motors Gomti Nagar,2026-01-01,Varun Mishra,17,Full,Safari,XZ,true,Very happy with the vehicle condition,521,2026-03-13T06:56:38.038-04:00
+522,MATTGL44825IN,Vikram Mishra,+917705515069,D021,Tata Motors Hitech City,2026-02-19,Manish Sethi,44,Full,Harrier,XE,true,AC not cooling well - dealer scheduled follow-up,522,2026-03-13T06:56:38.159-04:00
+523,MATHRN69350IN,Ajay Mishra,+918330956558,D030,Tata Motors Gomti Nagar,2025-12-31,Nikhil Desai,36,Full,Tiago,XZ,false,Very happy with the vehicle condition,523,2026-03-13T06:56:38.273-04:00
+524,MATNXM46811IN,Kavita Chatterjee,+917023113014,D015,Tata Motors Jayanagar,2026-02-20,Tarun Kaushik,42,Full,Harrier,XM,true,Excellent handover experience,524,2026-03-13T06:56:38.390-04:00
+525,MATHRK94948IN,Nisha Pandey,+919887816148,D029,Tata Motors Aliganj,2026-01-03,Arjun Nambiar,25,Full,Punch,Creative,true,Documentation was delayed by 30 minutes,525,2026-03-13T06:56:38.506-04:00
+526,MATNXM16113IN,Amit Patel,+919186779189,D034,Tata Motors Palasia,2026-02-19,Arjun Nambiar,27,Full,Punch,Pure,true,Excellent handover experience,526,2026-03-13T06:56:38.621-04:00
+527,MATNXM13469IN,Vivek Kapoor,+917268674221,D018,Tata Motors Baner,2026-01-02,Tarun Kaushik,38,1/2,Nexon,EV XZ+,true,Excellent handover experience,527,2026-03-13T06:56:38.741-04:00
+528,MATHRL88765IN,Priya Joshi,+917894798233,D006,Tata Motors Dwarka,2026-02-20,Nikhil Desai,11,Full,Tiago,XM,true,,528,2026-03-13T06:56:38.853-04:00
+529,MATHRL34917IN,Sneha Dutta,+918959694538,D008,Tata Motors Gurgaon,2025-12-30,Arjun Nambiar,28,Full,Safari,Adventure,true,Delivery process was smooth and professional,529,2026-03-13T06:56:38.974-04:00
+530,MATNXK70177IN,Swati Sharma,+918955701048,D023,Tata Motors Park Street,2026-02-19,Nikhil Desai,15,Full,Tiago,EV XZ+,true,All accessories installed as promised,530,2026-03-13T06:56:39.084-04:00
+531,MATHRN74617IN,Deepa Verma,+917108189737,D029,Tata Motors Aliganj,2026-01-03,Kunal Trivedi,16,1/2,Safari,XM,true,Excellent handover experience,531,2026-03-13T06:56:39.210-04:00
+532,MATTGK93196IN,Arun Bhat,+918187507958,D034,Tata Motors Palasia,2026-02-20,Nikhil Desai,27,Full,Tiago,XZ,false,Noticed slight vibration during test drive - dealer to check,532,2026-03-13T06:56:39.315-04:00
+533,MATNXM33991IN,Kavita Yadav,+919022395085,D018,Tata Motors Baner,2026-01-02,Abhishek Pandey,21,Full,Nexon,XZ,true,,533,2026-03-13T06:56:39.443-04:00
+534,MATNXM97687IN,Kavita Kumar,+918394113497,D025,Tata Motors Ashram Road,2026-02-18,Tarun Kaushik,6,Full,Tiago,XM,true,Minor scratch noticed on door - dealer promised touch-up,534,2026-03-13T06:56:39.547-04:00
+535,MATSFM18291IN,Bhavna Verma,+918843246317,D001,Tata Motors Andheri,2026-01-03,Abhishek Pandey,11,Full,Nexon,XZ,true,,535,2026-03-13T06:56:39.678-04:00
+536,MATTGL87650IN,Ravi Singh,+919958800215,D025,Tata Motors Ashram Road,2026-02-16,Pankaj Dubey,23,1/2,Nexon,XZ+,true,,536,2026-03-13T06:56:39.777-04:00
+537,MATPNN79727IN,Rahul Kumar,+918133244682,D001,Tata Motors Andheri,2025-12-31,Nikhil Desai,25,3/4,Punch,Adventure,true,,537,2026-03-13T06:56:39.927-04:00
+538,MATTGN91479IN,Kavita Rao,+917062550160,D021,Tata Motors Hitech City,2026-02-16,Kunal Trivedi,37,Full,Punch,EV Adventure,false,All accessories installed as promised,538,2026-03-13T06:56:40.008-04:00
+539,MATHRM77173IN,Smita Desai,+919756987509,D039,Tata Motors Edappally,2025-12-30,Kunal Trivedi,41,3/4,Harrier,XZ+ Dark,true,Delivery process was smooth and professional,539,2026-03-13T06:56:40.161-04:00
+540,MATSFN81402IN,Manoj Das,+918258672584,D022,Tata Motors Salt Lake,2026-02-18,Abhishek Pandey,33,Full,Tiago,XZ,true,Excellent handover experience,540,2026-03-13T06:56:40.270-04:00
+541,MATPNM56268IN,Komal Pandey,+918314835364,D034,Tata Motors Palasia,2026-01-04,Rohit Bhardwaj,25,Full,Punch,Pure,true,Excellent handover experience,541,2026-03-13T06:56:40.398-04:00
+542,MATPNM33494IN,Vikram Reddy,+918235069221,D038,Tata Motors Kadavanthara,2026-02-15,Abhishek Pandey,14,Full,Punch,Pure,true,Minor scratch noticed on door - dealer promised touch-up,542,2026-03-13T06:56:40.502-04:00
+543,MATPNM49129IN,Gaurav Dutta,+918599022883,D005,Tata Motors Connaught Place,2025-12-31,Arjun Nambiar,16,Full,Punch,Creative,true,Minor scratch noticed on door - dealer promised touch-up,543,2026-03-13T06:56:40.632-04:00
+544,MATHRN46148IN,Anita Chatterjee,+918504785973,D001,Tata Motors Andheri,2026-02-14,Rohit Bhardwaj,30,1/2,Tiago,XE,false,Documentation was delayed by 30 minutes,544,2026-03-13T06:56:40.745-04:00
+545,MATTGL23075IN,Vikram Singh,+919236698326,D006,Tata Motors Dwarka,2025-12-31,Varun Mishra,39,Full,Punch,Pure,true,AC not cooling well - dealer scheduled follow-up,545,2026-03-13T06:56:40.866-04:00
+546,MATSFL71946IN,Rahul Mukherjee,+919300130224,D009,Tata Motors Anna Nagar,2026-02-15,Sameer Khanna,23,Full,Punch,EV Adventure,true,All accessories installed as promised,546,2026-03-13T06:56:40.977-04:00
+547,MATNXM70485IN,Pooja Gupta,+918640877324,D023,Tata Motors Park Street,2025-12-31,Manish Sethi,17,Full,Punch,Adventure,true,Delivery process was smooth and professional,547,2026-03-13T06:56:41.103-04:00
+548,MATHRM44221IN,Anita Reddy,+917240247987,D007,Tata Motors Noida,2026-02-16,Varun Mishra,7,Full,Punch,Adventure,true,Documentation was delayed by 30 minutes,548,2026-03-13T06:56:41.208-04:00
+549,MATPNM34000IN,Sneha Gupta,+919373471410,D028,Tata Motors Vaishali Nagar,2025-12-30,Kunal Trivedi,11,Full,Harrier,XM,true,AC not cooling well - dealer scheduled follow-up,549,2026-03-13T06:56:41.343-04:00
+550,MATSFK86358IN,Swati Das,+917384223377,D034,Tata Motors Palasia,2026-02-15,Tarun Kaushik,5,Full,Tiago,XE,true,,550,2026-03-13T06:56:41.442-04:00
+551,MATSFM68779IN,Harsh Menon,+917428281228,D015,Tata Motors Jayanagar,2025-12-31,Kunal Trivedi,22,3/4,Nexon,XZ,true,Minor scratch noticed on door - dealer promised touch-up,551,2026-03-13T06:56:41.576-04:00
+552,MATHRN63515IN,Rahul Joshi,+917116756659,D018,Tata Motors Baner,2026-02-17,Kunal Trivedi,16,Full,Punch,Accomplished,true,All accessories installed as promised,552,2026-03-13T06:56:41.674-04:00
+553,MATNXM46437IN,Karthik Nair,+917119835127,D010,Tata Motors OMR,2025-12-31,Varun Mishra,21,Full,Harrier,XE,true,Very happy with the vehicle condition,553,2026-03-13T06:56:41.810-04:00
+554,MATTGN21910IN,Vikram Chatterjee,+919992832762,D005,Tata Motors Connaught Place,2026-02-14,Sameer Khanna,20,Full,Nexon,XE,true,,554,2026-03-13T06:56:41.906-04:00
+555,MATPNN44137IN,Meera Patel,+917418527097,D005,Tata Motors Connaught Place,2025-12-30,Varun Mishra,16,Full,Safari,XZ+,true,Requested additional floor mats,555,2026-03-13T06:56:42.114-04:00
+556,MATNXM86668IN,Suresh Chatterjee,+919881201405,D003,Tata Motors Powai,2026-02-14,Tarun Kaushik,30,Full,Nexon,XM,true,AC not cooling well - dealer scheduled follow-up,556,2026-03-13T06:56:42.138-04:00
+557,MATNXK16179IN,Arun Sharma,+919182522886,D020,Tata Motors Gachibowli,2025-12-28,Manish Sethi,30,3/4,Harrier,XE,true,Noticed slight vibration during test drive - dealer to check,557,2026-03-13T06:56:42.347-04:00
+558,MATTGM43006IN,Sanjay Kumar,+919782703585,D029,Tata Motors Aliganj,2026-02-14,Varun Mishra,12,Full,Harrier,XZ+ Dark,true,,558,2026-03-13T06:56:42.369-04:00
+559,MATTGL35212IN,Prakash Sharma,+918811565118,D040,Tata Motors Vizag CBD,2025-12-28,Manish Sethi,32,Full,Harrier,XE,true,Noticed slight vibration during test drive - dealer to check,559,2026-03-13T06:56:42.580-04:00
+560,MATSFL12727IN,Karthik Rao,+917041564202,D038,Tata Motors Kadavanthara,2026-02-15,Rohit Bhardwaj,21,Full,Punch,Pure,true,,560,2026-03-13T06:56:42.600-04:00
+561,MATHRN51488IN,Deepa Malhotra,+919592872289,D031,Tata Motors Sadar,2025-12-31,Pankaj Dubey,5,Full,Tiago,XE,true,AC not cooling well - dealer scheduled follow-up,561,2026-03-13T06:56:42.820-04:00
+562,MATNXL58350IN,Meera Mukherjee,+919183715030,D011,Tata Motors Adyar,2026-02-17,Sameer Khanna,6,3/4,Tiago,XZ,false,Documentation was delayed by 30 minutes,562,2026-03-13T06:56:42.830-04:00
+563,MATHRL48883IN,Vikram Sinha,+918786860929,D008,Tata Motors Gurgaon,2026-01-03,Nikhil Desai,11,Full,Nexon,EV Max XZ+ Lux,true,All accessories installed as promised,563,2026-03-13T06:56:43.054-04:00
+564,MATHRK94196IN,Sneha Reddy,+917101849350,D001,Tata Motors Andheri,2026-02-15,Manish Sethi,34,Full,Punch,EV Adventure,true,Requested additional floor mats,564,2026-03-13T06:56:43.062-04:00
+565,MATNXK86395IN,Pooja Patel,+917195551678,D003,Tata Motors Powai,2026-02-17,Tarun Kaushik,15,3/4,Tiago,XM,true,,565,2026-03-13T06:56:43.342-04:00
+566,MATPNN46932IN,Bhavna Verma,+919409107975,D021,Tata Motors Hitech City,2026-01-01,Sameer Khanna,24,Full,Punch,Accomplished,true,Documentation was delayed by 30 minutes,566,2026-03-13T06:56:43.342-04:00
+567,MATSFK76988IN,Sneha Kumar,+918615774368,D040,Tata Motors Vizag CBD,2026-02-14,Abhishek Pandey,34,Full,Safari,XE,true,,567,2026-03-13T06:56:43.650-04:00
+568,MATNXK32032IN,Amit Joshi,+919883152601,D023,Tata Motors Park Street,2025-12-28,Nikhil Desai,29,3/4,Tiago,XE,true,Requested additional floor mats,568,2026-03-13T06:56:43.650-04:00
+569,MATSFN31212IN,Ravi Mukherjee,+917314680941,D004,Tata Motors Navi Mumbai,2026-02-18,Nikhil Desai,26,Full,Punch,Adventure,true,Noticed slight vibration during test drive - dealer to check,569,2026-03-13T06:56:43.957-04:00
+570,MATTGL98234IN,Komal Rao,+919006901552,D027,Tata Motors Civil Lines,2025-12-29,Tarun Kaushik,11,Full,Safari,XM,true,,570,2026-03-13T06:56:43.957-04:00
+571,MATSFK10107IN,Pooja Mishra,+917094909500,D012,Tata Motors Whitefield,2026-02-17,Kunal Trivedi,10,3/4,Harrier,XE,true,,571,2026-03-13T06:56:44.265-04:00
+572,MATPNN74619IN,Manoj Mukherjee,+919928011361,D039,Tata Motors Edappally,2025-12-29,Sameer Khanna,29,Full,Safari,XZ,true,Documentation was delayed by 30 minutes,572,2026-03-13T06:56:44.265-04:00
+573,MATNXN87780IN,Prakash Malhotra,+919089685115,D017,Tata Motors Hinjawadi,2025-12-27,Sameer Khanna,19,Full,Tiago,EV XZ+,true,Excellent handover experience,573,2026-03-13T06:56:44.571-04:00
+574,MATTGM32389IN,Lakshmi Banerjee,+918900860728,D024,Tata Motors Howrah,2026-02-13,Varun Mishra,28,3/4,Tiago,XE,true,,574,2026-03-13T06:56:44.571-04:00
+575,MATHRK89669IN,Anita Verma,+917545457384,D011,Tata Motors Adyar,2026-02-11,Tarun Kaushik,9,Full,Nexon,XZ+ Lux,true,,575,2026-03-13T06:56:44.802-04:00
+576,MATTGM99860IN,Ajay Mishra,+919932075585,D033,Tata Motors MG Road,2025-12-26,Sameer Khanna,12,Full,Nexon,XZ+,true,Delivery process was smooth and professional,576,2026-03-13T06:56:44.804-04:00
+577,MATSFK51423IN,Arun Sharma,+919332909340,D039,Tata Motors Edappally,2026-02-13,Tarun Kaushik,34,Full,Tiago,XZ+,true,Delivery process was smooth and professional,577,2026-03-13T06:56:45.033-04:00
+578,MATTGK18022IN,Prakash Singh,+917806716024,D013,Tata Motors Koramangala,2025-12-30,Rohit Bhardwaj,39,Full,Safari,XM,true,,578,2026-03-13T06:56:45.042-04:00
+579,MATTGL64525IN,Lakshmi Banerjee,+917329311259,D005,Tata Motors Connaught Place,2026-02-11,Varun Mishra,42,Full,Tiago,XE,true,Very happy with the vehicle condition,579,2026-03-13T06:56:45.264-04:00
+580,MATSFK48375IN,Meera Nair,+917506229308,D022,Tata Motors Salt Lake,2025-12-29,Pankaj Dubey,20,Full,Safari,Adventure,true,Requested additional floor mats,580,2026-03-13T06:56:45.275-04:00
+581,MATTGN31233IN,Rahul Rao,+918366844516,D013,Tata Motors Koramangala,2026-02-16,Nikhil Desai,42,Full,Nexon,XZ+ Lux,true,AC not cooling well - dealer scheduled follow-up,581,2026-03-13T06:56:45.495-04:00
+582,MATSFK49437IN,Karthik Kapoor,+918464275058,D005,Tata Motors Connaught Place,2025-12-31,Nikhil Desai,30,Full,Safari,XM,true,,582,2026-03-13T06:56:45.513-04:00
+583,MATPNL99439IN,Lakshmi Mukherjee,+919674207762,D007,Tata Motors Noida,2026-02-14,Rohit Bhardwaj,11,Full,Harrier,XZ+ Dark,true,Very happy with the vehicle condition,583,2026-03-13T06:56:45.728-04:00
+584,MATSFM38240IN,Prakash Malhotra,+917107734642,D020,Tata Motors Gachibowli,2025-12-29,Kunal Trivedi,37,Full,Tiago,EV XZ+,true,All accessories installed as promised,584,2026-03-13T06:56:45.747-04:00
+585,MATTGN31077IN,Priya Bhat,+919650785456,D021,Tata Motors Hitech City,2026-02-16,Kunal Trivedi,5,Full,Harrier,XM,true,Minor scratch noticed on door - dealer promised touch-up,585,2026-03-13T06:56:45.959-04:00
+586,MATHRN10800IN,Deepa Pandey,+919591944720,D018,Tata Motors Baner,2025-12-26,Arjun Nambiar,17,Full,Nexon,XE,true,Very happy with the vehicle condition,586,2026-03-13T06:56:45.981-04:00
+587,MATHRM26561IN,Deepa Iyer,+918633492207,D003,Tata Motors Powai,2026-02-16,Pankaj Dubey,8,Full,Punch,Creative,true,Excellent handover experience,587,2026-03-13T06:56:46.205-04:00
+588,MATHRN93008IN,Harsh Tiwari,+918280082896,D012,Tata Motors Whitefield,2026-01-01,Arjun Nambiar,44,Full,Nexon,XM,true,Delivery process was smooth and professional,588,2026-03-13T06:56:46.215-04:00
+589,MATHRL57409IN,Meera Chatterjee,+918210732253,D027,Tata Motors Civil Lines,2026-02-12,Varun Mishra,28,Full,Safari,XZ,true,,589,2026-03-13T06:56:46.438-04:00
+590,MATNXM25159IN,Kavita Yadav,+918401325062,D021,Tata Motors Hitech City,2025-12-28,Varun Mishra,35,Full,Punch,Creative,true,Requested additional floor mats,590,2026-03-13T06:56:46.455-04:00
+591,MATSFM39628IN,Neha Iyer,+918540299913,D025,Tata Motors Ashram Road,2026-02-16,Nikhil Desai,15,Full,Safari,XM,false,Minor scratch noticed on door - dealer promised touch-up,591,2026-03-13T06:56:46.670-04:00
+592,MATPNK48770IN,Swati Kapoor,+919964677095,D024,Tata Motors Howrah,2025-12-29,Pankaj Dubey,12,Full,Safari,Adventure,true,,592,2026-03-13T06:56:46.690-04:00
+593,MATHRL63652IN,Neha Verma,+917517138903,D009,Tata Motors Anna Nagar,2026-02-14,Abhishek Pandey,13,Full,Nexon,XZ+ Lux,true,Noticed slight vibration during test drive - dealer to check,593,2026-03-13T06:56:46.901-04:00
+594,MATHRL94450IN,Sneha Dutta,+917379791622,D025,Tata Motors Ashram Road,2025-12-26,Nikhil Desai,39,Full,Harrier,XM,true,Delivery process was smooth and professional,594,2026-03-13T06:56:46.927-04:00
+595,MATTGN40308IN,Rajesh Reddy,+919698210006,D013,Tata Motors Koramangala,2026-02-11,Abhishek Pandey,40,Full,Harrier,XZ+,true,Requested additional floor mats,595,2026-03-13T06:56:47.136-04:00
+596,MATSFN26020IN,Harsh Sinha,+919503565174,D013,Tata Motors Koramangala,2025-12-26,Manish Sethi,41,Full,Nexon,XZ,true,Delivery process was smooth and professional,596,2026-03-13T06:56:47.160-04:00
+597,MATNXM83449IN,Deepa Patel,+919548568659,D030,Tata Motors Gomti Nagar,2026-02-09,Manish Sethi,22,Full,Tiago,EV XZ+,true,All accessories installed as promised,597,2026-03-13T06:56:47.373-04:00
+598,MATPNN72808IN,Ajay Mishra,+917429351816,D029,Tata Motors Aliganj,2025-12-30,Manish Sethi,36,Full,Tiago,EV XZ+,true,,598,2026-03-13T06:56:47.394-04:00
+599,MATSFM32577IN,Sanjay Mishra,+917965743819,D033,Tata Motors MG Road,2026-02-15,Nikhil Desai,15,3/4,Harrier,XZ+ Dark,true,All accessories installed as promised,599,2026-03-13T06:56:47.605-04:00
+600,MATSFK89900IN,Amit Pillai,+918764396226,D033,Tata Motors MG Road,2025-12-25,Kunal Trivedi,33,3/4,Punch,Pure,true,Minor scratch noticed on door - dealer promised touch-up,600,2026-03-13T06:56:47.629-04:00
+601,MATHRN72806IN,Karthik Reddy,+918953210987,D013,Tata Motors Koramangala,2026-02-11,Abhishek Pandey,10,Full,Tiago,XM,true,Delivery process was smooth and professional,601,2026-03-13T06:56:47.837-04:00
+602,MATHRM61100IN,Karthik Iyer,+918640621012,D007,Tata Motors Noida,2025-12-24,Sameer Khanna,26,Full,Harrier,XZ,true,All accessories installed as promised,602,2026-03-13T06:56:47.862-04:00
+603,MATTGN16224IN,Rajesh Mukherjee,+917120594550,D007,Tata Motors Noida,2026-02-14,Pankaj Dubey,39,3/4,Tiago,EV XZ+,true,Requested additional floor mats,603,2026-03-13T06:56:48.070-04:00
+604,MATTGL78144IN,Manoj Kapoor,+919725553658,D018,Tata Motors Baner,2025-12-29,Kunal Trivedi,42,Full,Tiago,XZ,true,Requested additional floor mats,604,2026-03-13T06:56:48.097-04:00
+605,MATTGK98850IN,Deepa Iyer,+918337203337,D030,Tata Motors Gomti Nagar,2026-02-12,Nikhil Desai,35,Full,Safari,XZ,true,,605,2026-03-13T06:56:48.302-04:00
+606,MATPNM53013IN,Ravi Singh,+919393810783,D008,Tata Motors Gurgaon,2025-12-26,Manish Sethi,30,Full,Tiago,XZ+,true,Requested additional floor mats,606,2026-03-13T06:56:48.331-04:00
+607,MATHRK75084IN,Anita Gupta,+917733312623,D004,Tata Motors Navi Mumbai,2026-02-11,Nikhil Desai,9,Full,Nexon,XE,true,,607,2026-03-13T06:56:48.538-04:00
+608,MATHRM75900IN,Sneha Sharma,+918665475486,D039,Tata Motors Edappally,2025-12-28,Tarun Kaushik,19,Full,Tiago,XE,true,Excellent handover experience,608,2026-03-13T06:56:48.565-04:00
+609,MATHRM82876IN,Ravi Desai,+918643054893,D023,Tata Motors Park Street,2026-02-10,Pankaj Dubey,26,Full,Harrier,XE,true,,609,2026-03-13T06:56:48.770-04:00
+610,MATSFN83436IN,Smita Saxena,+918954409903,D009,Tata Motors Anna Nagar,2025-12-28,Arjun Nambiar,10,Full,Safari,XM,true,Very happy with the vehicle condition,610,2026-03-13T06:56:48.798-04:00
+611,MATPNN62369IN,Suresh Joshi,+918798195314,D040,Tata Motors Vizag CBD,2026-02-12,Kunal Trivedi,21,Full,Safari,XM,true,Requested additional floor mats,611,2026-03-13T06:56:49.002-04:00
+612,MATNXK41605IN,Manoj Joshi,+917760411396,D001,Tata Motors Andheri,2025-12-22,Tarun Kaushik,42,Full,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,612,2026-03-13T06:56:49.032-04:00
+613,MATTGK10422IN,Ravi Desai,+918542310868,D022,Tata Motors Salt Lake,2026-02-07,Nikhil Desai,24,3/4,Nexon,XE,true,,613,2026-03-13T06:56:49.233-04:00
+614,MATTGM15598IN,Vivek Das,+919146936316,D002,Tata Motors Thane,2025-12-27,Tarun Kaushik,26,Full,Punch,Adventure,true,All accessories installed as promised,614,2026-03-13T06:56:49.266-04:00
+615,MATNXM99981IN,Rajesh Singh,+917563969659,D021,Tata Motors Hitech City,2026-02-07,Manish Sethi,14,Full,Safari,XE,true,,615,2026-03-13T06:56:49.502-04:00
+616,MATTGM37392IN,Dinesh Pandey,+917185496152,D038,Tata Motors Kadavanthara,2025-12-24,Abhishek Pandey,24,Full,Tiago,XM,false,AC not cooling well - dealer scheduled follow-up,616,2026-03-13T06:56:49.502-04:00
+617,MATTGM98062IN,Suresh Sharma,+917263458982,D027,Tata Motors Civil Lines,2026-02-10,Manish Sethi,31,Full,Harrier,XM,true,,617,2026-03-13T06:56:49.732-04:00
+618,MATHRL73877IN,Swati Tiwari,+917502801710,D008,Tata Motors Gurgaon,2025-12-28,Kunal Trivedi,10,1/2,Punch,Accomplished,true,Delivery process was smooth and professional,618,2026-03-13T06:56:49.736-04:00
+619,MATSFL59186IN,Swati Das,+919752199440,D020,Tata Motors Gachibowli,2026-02-12,Varun Mishra,15,Full,Harrier,XZ+,true,Requested additional floor mats,619,2026-03-13T06:56:49.964-04:00
+620,MATSFK78319IN,Sanjay Nair,+919077255572,D006,Tata Motors Dwarka,2025-12-28,Sameer Khanna,34,Full,Tiago,XZ+,true,Delivery process was smooth and professional,620,2026-03-13T06:56:49.974-04:00
+621,MATNXM52871IN,Swati Verma,+919529224448,D036,Tata Motors Panchkula,2026-02-09,Abhishek Pandey,16,Full,Nexon,EV XZ+,true,,621,2026-03-13T06:56:50.196-04:00
+622,MATSFL14911IN,Smita Chopra,+918283748133,D012,Tata Motors Whitefield,2025-12-28,Manish Sethi,31,3/4,Tiago,XZ,true,,622,2026-03-13T06:56:50.208-04:00
+623,MATTGN67876IN,Arun Pillai,+917624710809,D001,Tata Motors Andheri,2026-02-11,Varun Mishra,40,Full,Safari,XE,true,,623,2026-03-13T06:56:50.426-04:00
+624,MATPNN15885IN,Prakash Desai,+918684506368,D018,Tata Motors Baner,2025-12-25,Tarun Kaushik,33,Full,Tiago,XM,true,Delivery process was smooth and professional,624,2026-03-13T06:56:50.448-04:00
+625,MATHRK16233IN,Lakshmi Kumar,+917321827661,D026,Tata Motors SG Highway,2026-02-09,Varun Mishra,42,1/2,Safari,XM,true,,625,2026-03-13T06:56:50.658-04:00
+626,MATNXM41081IN,Divya Mishra,+917643635446,D011,Tata Motors Adyar,2025-12-24,Kunal Trivedi,41,Full,Harrier,XE,true,Requested additional floor mats,626,2026-03-13T06:56:50.682-04:00
+627,MATHRK64443IN,Ravi Chatterjee,+917962945198,D005,Tata Motors Connaught Place,2026-02-11,Sameer Khanna,33,3/4,Harrier,XZ+,true,,627,2026-03-13T06:56:50.892-04:00
+628,MATHRK76044IN,Prakash Gupta,+918271496246,D001,Tata Motors Andheri,2025-12-26,Kunal Trivedi,26,Full,Nexon,EV Max XZ+ Lux,false,,628,2026-03-13T06:56:50.915-04:00
+629,MATPNM38508IN,Manoj Patel,+917385764118,D017,Tata Motors Hinjawadi,2026-02-06,Arjun Nambiar,21,Full,Nexon,XZ+,true,Documentation was delayed by 30 minutes,629,2026-03-13T06:56:51.125-04:00
+630,MATNXN35297IN,Swati Banerjee,+917044738618,D038,Tata Motors Kadavanthara,2025-12-27,Abhishek Pandey,37,Full,Safari,XM,true,All accessories installed as promised,630,2026-03-13T06:56:51.153-04:00
+631,MATTGK62369IN,Deepa Menon,+918137501270,D017,Tata Motors Hinjawadi,2026-02-09,Tarun Kaushik,16,Full,Tiago,XZ+,true,,631,2026-03-13T06:56:51.356-04:00
+632,MATSFK18688IN,Ashok Malhotra,+918790410196,D037,Tata Motors Sector 17,2025-12-27,Sameer Khanna,32,Full,Harrier,XZ+,true,Documentation was delayed by 30 minutes,632,2026-03-13T06:56:51.388-04:00
+633,MATPNM68065IN,Manoj Patel,+919899776877,D034,Tata Motors Palasia,2026-02-06,Varun Mishra,30,Full,Tiago,XE,true,AC not cooling well - dealer scheduled follow-up,633,2026-03-13T06:56:51.587-04:00
+634,MATNXN83140IN,Rohit Kumar,+917938381058,D015,Tata Motors Jayanagar,2025-12-22,Kunal Trivedi,13,3/4,Harrier,XZ,true,Noticed slight vibration during test drive - dealer to check,634,2026-03-13T06:56:51.624-04:00
+635,MATSFM79979IN,Manoj Pillai,+917856880770,D014,Tata Motors Electronic City,2026-02-05,Pankaj Dubey,17,Full,Harrier,XM,true,Noticed slight vibration during test drive - dealer to check,635,2026-03-13T06:56:51.819-04:00
+636,MATNXM35220IN,Komal Kapoor,+918902066222,D038,Tata Motors Kadavanthara,2025-12-20,Manish Sethi,34,Full,Tiago,XZ,true,,636,2026-03-13T06:56:51.857-04:00
+637,MATTGL36039IN,Sanjay Chatterjee,+917351488403,D020,Tata Motors Gachibowli,2026-02-08,Tarun Kaushik,11,1/2,Tiago,XZ,true,,637,2026-03-13T06:56:52.051-04:00
+638,MATPNK27765IN,Swati Banerjee,+919426660030,D030,Tata Motors Gomti Nagar,2025-12-26,Rohit Bhardwaj,14,Full,Punch,EV Adventure,true,Documentation was delayed by 30 minutes,638,2026-03-13T06:56:52.094-04:00
+639,MATPNM26282IN,Priya Bhat,+917926700657,D007,Tata Motors Noida,2026-02-09,Nikhil Desai,8,Full,Tiago,XZ,true,All accessories installed as promised,639,2026-03-13T06:56:52.281-04:00
+640,MATPNK31003IN,Vivek Kumar,+919877971462,D007,Tata Motors Noida,2025-12-21,Varun Mishra,8,3/4,Safari,XE,true,Delivery process was smooth and professional,640,2026-03-13T06:56:52.328-04:00
+641,MATHRM44749IN,Pooja Bhat,+918983420911,D016,Tata Motors Kothrud,2026-02-05,Manish Sethi,23,Full,Safari,XZ,true,AC not cooling well - dealer scheduled follow-up,641,2026-03-13T06:56:52.512-04:00
+642,MATTGK81717IN,Karthik Chatterjee,+919564413018,D034,Tata Motors Palasia,2025-12-20,Rohit Bhardwaj,16,Full,Harrier,XZ,true,Requested additional floor mats,642,2026-03-13T06:56:52.564-04:00
+643,MATSFK56567IN,Sneha Pillai,+919795969275,D011,Tata Motors Adyar,2026-02-09,Nikhil Desai,38,Full,Nexon,EV XZ+,true,Delivery process was smooth and professional,643,2026-03-13T06:56:52.743-04:00
+644,MATHRM86459IN,Rahul Menon,+917866364653,D014,Tata Motors Electronic City,2025-12-23,Nikhil Desai,19,Full,Tiago,XZ,true,Very happy with the vehicle condition,644,2026-03-13T06:56:52.797-04:00
+645,MATNXK89796IN,Arun Banerjee,+918265520773,D015,Tata Motors Jayanagar,2026-02-10,Rohit Bhardwaj,43,Full,Harrier,XE,true,,645,2026-03-13T06:56:52.974-04:00
+646,MATTGL98752IN,Deepa Gupta,+919649061066,D023,Tata Motors Park Street,2025-12-19,Abhishek Pandey,19,Full,Nexon,EV Max XZ+ Lux,true,Requested additional floor mats,646,2026-03-13T06:56:53.032-04:00
+647,MATNXN36331IN,Anita Patel,+918256588310,D022,Tata Motors Salt Lake,2026-02-06,Pankaj Dubey,15,Full,Nexon,XZ,true,,647,2026-03-13T06:56:53.207-04:00
+648,MATPNN72779IN,Priya Tiwari,+918622835654,D028,Tata Motors Vaishali Nagar,2025-12-24,Abhishek Pandey,21,Full,Nexon,XZ,true,,648,2026-03-13T06:56:53.268-04:00
+649,MATTGM39148IN,Sneha Chatterjee,+918101259431,D038,Tata Motors Kadavanthara,2026-02-09,Kunal Trivedi,11,Full,Tiago,XM,true,Delivery process was smooth and professional,649,2026-03-13T06:56:53.440-04:00
+650,MATNXN14263IN,Komal Pillai,+919810479778,D031,Tata Motors Sadar,2025-12-21,Nikhil Desai,17,Full,Tiago,XM,true,Requested additional floor mats,650,2026-03-13T06:56:53.502-04:00
+651,MATNXN36462IN,Sneha Bhat,+919115824131,D008,Tata Motors Gurgaon,2026-02-07,Manish Sethi,23,Full,Safari,XM,true,Noticed slight vibration during test drive - dealer to check,1,2026-03-13T06:56:53.672-04:00
+652,MATPNM77653IN,Karthik Mukherjee,+918312200868,D025,Tata Motors Ashram Road,2025-12-20,Varun Mishra,13,Full,Tiago,XM,true,AC not cooling well - dealer scheduled follow-up,2,2026-03-13T06:56:53.740-04:00
+653,MATSFL46671IN,Deepa Sharma,+919107481107,D037,Tata Motors Sector 17,2026-02-03,Abhishek Pandey,7,Full,Punch,Adventure,true,,3,2026-03-13T06:56:53.904-04:00
+654,MATPNM78219IN,Sneha Patel,+918642997519,D025,Tata Motors Ashram Road,2025-12-24,Tarun Kaushik,21,Full,Punch,EV Adventure,true,Delivery process was smooth and professional,4,2026-03-13T06:56:53.974-04:00
+655,MATNXK95322IN,Ravi Nair,+917438013753,D030,Tata Motors Gomti Nagar,2026-02-09,Rohit Bhardwaj,45,Full,Nexon,XZ+,true,Noticed slight vibration during test drive - dealer to check,5,2026-03-13T06:56:54.135-04:00
+656,MATHRL78113IN,Dinesh Desai,+918463049293,D035,Tata Motors Rajpur Road,2025-12-19,Arjun Nambiar,11,Full,Punch,EV Adventure,true,All accessories installed as promised,6,2026-03-13T06:56:54.211-04:00
+657,MATTGM61744IN,Suresh Nair,+918843134058,D032,Tata Motors Dharampeth,2026-02-04,Pankaj Dubey,11,Full,Tiago,XZ,true,,7,2026-03-13T06:56:54.366-04:00
+658,MATTGN25566IN,Rajesh Iyer,+917716050899,D020,Tata Motors Gachibowli,2025-12-23,Pankaj Dubey,27,1/2,Nexon,XM,true,All accessories installed as promised,8,2026-03-13T06:56:54.449-04:00
+659,MATNXM81766IN,Lakshmi Banerjee,+917462019884,D007,Tata Motors Noida,2026-02-09,Pankaj Dubey,36,Full,Harrier,XE,true,Very happy with the vehicle condition,9,2026-03-13T06:56:54.598-04:00
+660,MATHRN21706IN,Rajesh Das,+918063353512,D018,Tata Motors Baner,2025-12-23,Manish Sethi,31,Full,Punch,Accomplished,true,,10,2026-03-13T06:56:54.688-04:00
+661,MATNXK91094IN,Suresh Patel,+918898340812,D036,Tata Motors Panchkula,2026-02-04,Kunal Trivedi,23,Full,Safari,XE,true,AC not cooling well - dealer scheduled follow-up,11,2026-03-13T06:56:54.830-04:00
+662,MATPNN15896IN,Divya Saxena,+917128263115,D001,Tata Motors Andheri,2025-12-19,Manish Sethi,40,3/4,Safari,XZ,false,All accessories installed as promised,12,2026-03-13T06:56:55.000-04:00
+663,MATHRM17667IN,Manoj Menon,+919815730407,D040,Tata Motors Vizag CBD,2026-02-04,Arjun Nambiar,15,Full,Tiago,XZ+,true,,13,2026-03-13T06:56:55.062-04:00
+664,MATSFN51724IN,Vivek Chatterjee,+918704618467,D028,Tata Motors Vaishali Nagar,2025-12-21,Sameer Khanna,16,Full,Harrier,XZ+,true,,14,2026-03-13T06:56:55.234-04:00
+665,MATPNN10131IN,Sanjay Bhat,+918304275881,D034,Tata Motors Palasia,2026-02-05,Sameer Khanna,42,Full,Safari,XM,true,,15,2026-03-13T06:56:55.296-04:00
+666,MATTGK49405IN,Anita Joshi,+917322812954,D034,Tata Motors Palasia,2025-12-17,Manish Sethi,7,3/4,Safari,XZ,true,AC not cooling well - dealer scheduled follow-up,16,2026-03-13T06:56:55.470-04:00
+667,MATSFM96805IN,Amit Reddy,+918833383328,D008,Tata Motors Gurgaon,2026-02-05,Abhishek Pandey,22,Full,Safari,XE,true,,17,2026-03-13T06:56:55.528-04:00
+668,MATTGN98029IN,Tanya Verma,+918781147386,D028,Tata Motors Vaishali Nagar,2025-12-18,Arjun Nambiar,42,Full,Tiago,XZ+,true,All accessories installed as promised,18,2026-03-13T06:56:55.704-04:00
+669,MATHRM90405IN,Karthik Pillai,+917360979899,D032,Tata Motors Dharampeth,2026-02-06,Rohit Bhardwaj,8,Full,Safari,XZ,true,Requested additional floor mats,19,2026-03-13T06:56:55.760-04:00
+670,MATHRL35397IN,Sachin Banerjee,+919252639330,D020,Tata Motors Gachibowli,2025-12-22,Manish Sethi,15,3/4,Tiago,XE,true,Very happy with the vehicle condition,20,2026-03-13T06:56:55.944-04:00
+671,MATSFN99151IN,Lakshmi Patel,+919211900340,D026,Tata Motors SG Highway,2026-02-07,Tarun Kaushik,35,Full,Safari,XM,true,Noticed slight vibration during test drive - dealer to check,21,2026-03-13T06:56:55.990-04:00
+672,MATHRM53152IN,Manoj Banerjee,+918784397625,D026,Tata Motors SG Highway,2026-02-03,Manish Sethi,9,Full,Harrier,XM,true,,22,2026-03-13T06:56:56.245-04:00
+673,MATTGN22539IN,Vikram Iyer,+917676480682,D031,Tata Motors Sadar,2025-12-22,Tarun Kaushik,41,Full,Punch,Adventure,true,Documentation was delayed by 30 minutes,23,2026-03-13T06:56:56.248-04:00
+674,MATHRK96471IN,Priya Chatterjee,+917142622955,D035,Tata Motors Rajpur Road,2026-02-03,Rohit Bhardwaj,27,Full,Nexon,XZ+ Lux,true,Excellent handover experience,24,2026-03-13T06:56:56.476-04:00
+675,MATSFN65182IN,Anita Desai,+919862737531,D039,Tata Motors Edappally,2025-12-22,Abhishek Pandey,30,Full,Harrier,XE,true,,25,2026-03-13T06:56:56.483-04:00
+676,MATSFL77853IN,Swati Joshi,+918884621033,D036,Tata Motors Panchkula,2026-02-04,Sameer Khanna,22,3/4,Nexon,XM,true,,26,2026-03-13T06:56:56.708-04:00
+677,MATTGM90753IN,Arun Kapoor,+917784910842,D035,Tata Motors Rajpur Road,2025-12-17,Kunal Trivedi,40,Full,Safari,XE,true,,27,2026-03-13T06:56:56.724-04:00
+678,MATNXK13934IN,Pooja Chopra,+917177500057,D025,Tata Motors Ashram Road,2025-12-18,Nikhil Desai,38,Full,Harrier,XZ+ Dark,true,,28,2026-03-13T06:56:56.962-04:00
+679,MATNXK44313IN,Karthik Reddy,+917986990926,D031,Tata Motors Sadar,2026-02-04,Arjun Nambiar,41,Full,Harrier,XM,false,AC not cooling well - dealer scheduled follow-up,29,2026-03-13T06:56:56.963-04:00
+680,MATNXL28931IN,Sneha Das,+918565089411,D002,Tata Motors Thane,2026-02-08,Sameer Khanna,20,Full,Tiago,XM,true,All accessories installed as promised,30,2026-03-13T06:56:57.198-04:00
+681,MATHRN86556IN,Priya Reddy,+919925326343,D039,Tata Motors Edappally,2025-12-17,Nikhil Desai,5,Full,Tiago,XZ+,true,Delivery process was smooth and professional,31,2026-03-13T06:56:57.198-04:00
+682,MATPNN45171IN,Anita Bhat,+918533467190,D012,Tata Motors Whitefield,2026-02-05,Manish Sethi,18,3/4,Punch,Pure,true,Noticed slight vibration during test drive - dealer to check,32,2026-03-13T06:56:57.430-04:00
+683,MATTGK40169IN,Sunita Iyer,+917287003623,D024,Tata Motors Howrah,2025-12-17,Rohit Bhardwaj,22,Full,Nexon,XZ+,true,Excellent handover experience,33,2026-03-13T06:56:57.431-04:00
+684,MATTGK94365IN,Kavita Mukherjee,+919643226177,D005,Tata Motors Connaught Place,2026-02-07,Tarun Kaushik,15,Full,Tiago,XE,true,Requested additional floor mats,34,2026-03-13T06:56:57.663-04:00
+685,MATSFM49252IN,Vikram Patel,+918155604503,D017,Tata Motors Hinjawadi,2025-12-21,Rohit Bhardwaj,31,Full,Safari,Adventure,true,Excellent handover experience,35,2026-03-13T06:56:57.664-04:00
+686,MATHRN86939IN,Karthik Verma,+918080080462,D013,Tata Motors Koramangala,2026-02-02,Arjun Nambiar,8,Full,Harrier,XZ+ Dark,true,Very happy with the vehicle condition,36,2026-03-13T06:56:57.895-04:00
+687,MATPNM49274IN,Priya Kapoor,+917419511862,D006,Tata Motors Dwarka,2025-12-20,Pankaj Dubey,15,Full,Harrier,XZ+ Dark,true,Noticed slight vibration during test drive - dealer to check,37,2026-03-13T06:56:57.898-04:00
+688,MATSFK32468IN,Rajesh Banerjee,+917863817960,D034,Tata Motors Palasia,2026-02-02,Tarun Kaushik,15,Full,Harrier,XM,true,All accessories installed as promised,38,2026-03-13T06:56:58.126-04:00
+689,MATHRN64842IN,Meera Nair,+917218187696,D036,Tata Motors Panchkula,2025-12-17,Arjun Nambiar,30,Full,Nexon,EV XZ+,true,Delivery process was smooth and professional,39,2026-03-13T06:56:58.132-04:00
+690,MATHRN18384IN,Ravi Pillai,+918492163362,D016,Tata Motors Kothrud,2026-02-04,Tarun Kaushik,15,Full,Tiago,XE,true,Requested additional floor mats,40,2026-03-13T06:56:58.358-04:00
+691,MATHRL42654IN,Dinesh Dutta,+917810199665,D028,Tata Motors Vaishali Nagar,2025-12-17,Arjun Nambiar,5,Full,Safari,XM,true,Noticed slight vibration during test drive - dealer to check,41,2026-03-13T06:56:58.367-04:00
+692,MATHRK63907IN,Sneha Gupta,+917074994757,D040,Tata Motors Vizag CBD,2026-02-01,Arjun Nambiar,10,Full,Nexon,XE,true,,42,2026-03-13T06:56:58.619-04:00
+693,MATHRN97856IN,Kavita Chopra,+919385384970,D031,Tata Motors Sadar,2025-12-16,Arjun Nambiar,30,Full,Tiago,XZ,true,Requested additional floor mats,43,2026-03-13T06:56:58.620-04:00
+694,MATHRK16259IN,Kavita Nair,+918924464681,D037,Tata Motors Sector 17,2026-02-05,Pankaj Dubey,37,Full,Punch,EV Adventure,true,,44,2026-03-13T06:56:58.851-04:00
+695,MATHRK64484IN,Pooja Pandey,+918115041060,D007,Tata Motors Noida,2025-12-15,Pankaj Dubey,33,1/2,Nexon,XZ,true,,45,2026-03-13T06:56:58.854-04:00
+696,MATSFK58362IN,Deepa Reddy,+918872680403,D018,Tata Motors Baner,2026-02-05,Varun Mishra,26,Full,Punch,Adventure,true,,46,2026-03-13T06:56:59.087-04:00
+697,MATSFM93277IN,Parveen Kumar,+918150583499,D030,Tata Motors Gomti Nagar,2025-12-17,Kunal Trivedi,26,Full,Nexon,XM,true,Excellent handover experience,47,2026-03-13T06:56:59.087-04:00
+698,MATHRK41922IN,Kavita Iyer,+919563116000,D006,Tata Motors Dwarka,2026-01-31,Rohit Bhardwaj,30,Full,Harrier,XZ+ Dark,true,Very happy with the vehicle condition,48,2026-03-13T06:56:59.320-04:00
+699,MATNXM53420IN,Rajesh Singh,+918567588279,D012,Tata Motors Whitefield,2025-12-17,Sameer Khanna,11,Full,Nexon,EV XZ+,true,Noticed slight vibration during test drive - dealer to check,49,2026-03-13T06:56:59.321-04:00
+700,MATHRL32764IN,Manoj Rao,+919250201559,D028,Tata Motors Vaishali Nagar,2026-02-04,Abhishek Pandey,34,3/4,Safari,Adventure,true,Delivery process was smooth and professional,50,2026-03-13T06:56:59.551-04:00
