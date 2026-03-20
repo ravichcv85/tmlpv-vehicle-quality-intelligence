@@ -1,0 +1,101 @@
+-- ============================================================
+-- Lakebase Staging Tables Setup
+-- Run these against your Lakebase PostgreSQL instance
+-- ============================================================
+
+-- Table 1: staging_complaints
+CREATE TABLE IF NOT EXISTS staging_complaints (
+    complaint_id SERIAL PRIMARY KEY,
+    vin VARCHAR(17),
+    customer_name VARCHAR(100),
+    dealer_code VARCHAR(10),
+    dealer_name VARCHAR(100),
+    complaint_date DATE,
+    description TEXT,
+    category VARCHAR(50),
+    subcategory VARCHAR(100),
+    ai_category VARCHAR(50),
+    ai_subcategory VARCHAR(100),
+    ai_confidence DECIMAL(5,2),
+    severity VARCHAR(20),
+    status VARCHAR(20) DEFAULT 'Open',
+    model VARCHAR(50),
+    variant VARCHAR(50),
+    manufacturing_date DATE,
+    processed BOOLEAN DEFAULT FALSE,
+    vehicle_id VARCHAR(20),
+    customer_id VARCHAR(20),
+    complaint_category VARCHAR(50),
+    ingested_at TIMESTAMP DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Table 2: staging_inspections
+CREATE TABLE IF NOT EXISTS staging_inspections (
+    inspection_id SERIAL PRIMARY KEY,
+    vin VARCHAR(17),
+    dealer_code VARCHAR(10),
+    dealer_name VARCHAR(100),
+    inspector_name VARCHAR(100),
+    inspection_date DATE,
+    model VARCHAR(50),
+    variant VARCHAR(50),
+    exterior_body_result VARCHAR(10),
+    exterior_body_action TEXT,
+    paint_finish_result VARCHAR(10),
+    paint_finish_action TEXT,
+    engine_bay_result VARCHAR(10),
+    engine_bay_action TEXT,
+    ac_system_result VARCHAR(10),
+    ac_system_action TEXT,
+    brakes_result VARCHAR(10),
+    brakes_action TEXT,
+    electrical_result VARCHAR(10),
+    electrical_action TEXT,
+    tyres_wheels_result VARCHAR(10),
+    tyres_wheels_action TEXT,
+    suspension_result VARCHAR(10),
+    suspension_action TEXT,
+    infotainment_result VARCHAR(10),
+    infotainment_action TEXT,
+    safety_systems_result VARCHAR(10),
+    safety_systems_action TEXT,
+    overall_result VARCHAR(10),
+    risk_score DECIMAL(5,2),
+    risk_confidence DECIMAL(5,2),
+    risk_recommendation TEXT,
+    delivery_cleared BOOLEAN,
+    processed BOOLEAN DEFAULT FALSE,
+    vehicle_id VARCHAR(20),
+    checklist_item VARCHAR(100),
+    status VARCHAR(20),
+    notes TEXT,
+    ingested_at TIMESTAMP DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Table 3: staging_deliveries
+CREATE TABLE IF NOT EXISTS staging_deliveries (
+    delivery_id SERIAL PRIMARY KEY,
+    vin VARCHAR(17),
+    customer_name VARCHAR(100),
+    customer_phone VARCHAR(15),
+    dealer_code VARCHAR(10),
+    dealer_name VARCHAR(100),
+    delivery_date DATE,
+    delivery_officer VARCHAR(100),
+    odometer_reading INT,
+    fuel_level VARCHAR(20),
+    model VARCHAR(50),
+    variant VARCHAR(50),
+    epod_signed BOOLEAN,
+    customer_remarks TEXT,
+    inspection_id INT,
+    processed BOOLEAN DEFAULT FALSE,
+    vehicle_id VARCHAR(20),
+    dealer_id VARCHAR(20),
+    delivery_condition VARCHAR(50),
+    customer_signature TEXT,
+    ingested_at TIMESTAMP DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW()
+);
