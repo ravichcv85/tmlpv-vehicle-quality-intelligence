@@ -1,8 +1,47 @@
 # TMLPV Vehicle Quality Intelligence
 
-Full-stack Databricks App for vehicle quality management — built for automotive OEMs to manage pre-delivery inspections (PDI), track customer complaints, and use AI to identify checklist gaps.
+A production-ready Databricks App that solves a problem every large automotive OEM faces: **quality data exists — complaints, inspection results, delivery records — but it lives in disconnected systems, arrives weeks late, and no AI is applied at the moments that actually matter.**
 
-## What It Does
+This platform fixes all three problems simultaneously.
+
+## The Problem
+
+At a typical automotive OEM, the journey from a customer complaint to actionable quality intelligence passes through **five disconnected systems**, **three departments**, and a **4–8 week reporting lag**.
+
+| Stage | What Happens Today | What Goes Wrong |
+|-------|-------------------|-----------------|
+| **Complaint Logging** | Service advisor types free text, manually picks a category | The same defect gets logged under 3–4 different categories across 40 dealers. Patterns become invisible |
+| **Pre-Delivery Inspection (PDI)** | Technician marks Pass/Fail on a static checklist | Technicians rarely mark FAIL (it stops delivery and kills throughput). Instead: apply a quick fix, mark PASS, move on. No system asks if that fix will hold |
+| **Delivery (ePOD)** | Officer does walkaround, customer signs off | Nobody checks if the vehicle failed inspection or if this dealer has historically high defect rates. The data exists — it just lives in three separate systems |
+| **Checklist Updates** | Engineering reviews complaints quarterly | Manual, slow, resource-heavy. Gaps remain until warranty claims pile up |
+| **Reporting** | Static Excel reports arrive 4–8 weeks late | Managers can't drill deeper. Every week of delay on a defect pattern = more affected customers |
+
+**The cost**: Pre-delivery fix ~Rs. 2,200 vs. post-delivery warranty claim ~Rs. 20,000 — a **13x cost difference**, multiplied across tens of thousands of vehicles per month.
+
+## The Solution: Four AI Layers
+
+This platform injects four AI layers at precise points in the existing workflow — **no process redesign required**.
+
+### Layer 1: LLM Complaint Classification (at CRM entry)
+A customer reports "rattling near the AC vent on bumpy roads." Instead of the advisor manually picking a category, **Llama 3.3 70B classifies it automatically**: NVH > AC Duct Rattle > 87% confidence. Across 200 dealers, the same description always maps to the same category — AI enforces consistency at the point of entry.
+
+### Layer 2: Predictive Risk Scoring (at PDI submission)
+The real insight: the problem isn't technicians who mark FAIL — those vehicles are caught. **The problem is technicians who mark PASS after a quick fix.** The platform checks historical recurrence rates for the same fix at the same dealer. "Tightened AC duct bracket" at this dealer has a 71% complaint recurrence rate → **delivery halted, manager review required, replacement recommended** — even though the technician marked PASS.
+
+### Layer 3: Agentic Checklist Recommendations (post-pipeline)
+After every pipeline run, an AI agent reads complaint gap data and generates **specific, measurable, auditable inspection procedures**. Before: "Enhance tyre inspection." After: "Measure tread depth at 4 points per tyre using calibrated gauge. Min 6mm front, 4mm rear. FAIL if below minimum." 18 structural gaps identified, 18 procedures generated automatically.
+
+### Layer 4: Natural Language Analytics (at reporting layer)
+Business users query live gold tables in plain English via Genie. "Which dealers have the highest complaint rate?" → answer in seconds. Follow-up: "How many of those vehicles were delivered despite failing inspection?" → cross-table join answered instantly. No data engineer, no SQL, no 48-hour turnaround.
+
+### The Unified Pipeline
+For the first time, **CRM, PDI, and delivery data are joined by VIN** in a single medallion pipeline:
+
+> Lakebase (staging) → Bronze (raw) → Silver (complaint-PDI-delivery correlation) → Gold (5 analytical tables) → AI Layers + Dashboard
+
+The complaint we enter today is in production gold tables within minutes, not weeks.
+
+## What The App Does
 
 | Tab | Description |
 |-----|-------------|
@@ -10,6 +49,21 @@ Full-stack Databricks App for vehicle quality management — built for automotiv
 | **PDI Tablet** | 10-item pre-delivery inspection checklist with Pass/Fail/Quick Fix. Recurrence risk detection warns when similar fixes have failed before |
 | **AI Checklist Agent** | Select a complaint category and get AI-generated recommendations for new PDI checklist items to close coverage gaps |
 | **Pipeline Control** | Trigger Bronze/Silver/Gold ETL notebooks individually or all at once, with live status polling |
+
+The platform also includes a **6-page Lakeview Dashboard** (Complaint Trends, Dealer Accountability, ePDI Gap Intelligence, Delivery Accountability, Complaint Deep Dive, ePDI Action Plan) and optionally a **Genie Space** for natural language analytics.
+
+## Future Scope
+
+All enhancements are additive — the pipeline, gold tables, and AI framework are already in place:
+
+1. **Multimodal Inspection** — Camera + Vision AI detects defects invisible to a checkbox (tyre bulges, panel gaps, fluid leaks)
+2. **Warranty Cost Prediction** — ML model predicts 90-day warranty claim probability at delivery sign-off
+3. **Real-Time Complaint Alerts** — Streaming layer monitors for complaint spikes (>5 NVH complaints at one dealer in 6 hours)
+4. **Customer Chatbot** — Customer asks "What did my PDI inspection find?" → chatbot queries gold tables by VIN
+5. **Federated Dealer Benchmarking** — Cross-dealer quality leaderboard with row-level security
+6. **Supply Chain Prediction** — Correlate PDI failure spikes to supplier batch records
+7. **GenAI RCA Reports** — Auto-generated root cause analysis when complaint patterns hit significance thresholds
+8. **Voice-to-Complaint** — Whisper transcription feeds into the existing LLM classification pipeline
 
 ## Architecture
 
